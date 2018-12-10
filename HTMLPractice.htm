@@ -1,181 +1,185 @@
 
-<head>
-  <title> HTML-CSS-Practice </title>
-  <!-- There can only be one title -->
-  <!-- This gives a page title in the browser toolbar as well as when adding to favorites and making searches-->
+<!-- The above tells me that this is HTML 5 -->
+<html>
+  <head>
+    <title> HTML-CSS-Practice </title>
+    <!-- There can only be one title -->
+    <!-- This gives a page title in the browser toolbar as well as when adding to favorites and making searches-->
     
-  <style> 
+    <style> 
       .firstClass{
           
       }
-  </style>
+    </style>
   
-</head>
+  </head>
 
-<!--head tags keep extra info on the doc-->
-<!--info in the head element aren't shown in the doc-->
-<!--head element contains tags like link, style, meta, base, script, and title-->
+  <!--head tags keep extra info on the doc-->
+  <!--info in the head element aren't shown in the doc-->
+  <!--head element contains tags like link, style, meta, base, script, and title-->
 
-<header>
-  <h1> This is the biggest header. Each page can have only one to show the main subject for search engines to recognize. </h1>
-  <h2> This is the second biggest header. </h2>
-  <h3> This is the third biggest header. </h3>
-  <h4> This is the fourth biggest header. </h4>
-  <h5> This is the fifth biggest header. </h5>
-  <h6> This is the sixth biggest header. </h6>
-</header>
-
-
-<!--The above header tag contains all the h tags, each of which is a header. -->
-<!--More than one header tag can be used in a document. -->
-<!--Header can't be nested within another set of header tags, footer tags, or address tags.  -->
-<!--Header tags can include other information, like about the author, links, and/or a logo. -->
-<!--I found information about this header on https://www.w3schools.com/tags/tag_header.asp. -->
+  <header>
+    <h1> This is the biggest header. Each page can have only one to show the main subject for search engines to recognize. </h1>
+    <h2> This is the second biggest header. </h2>
+    <h3> This is the third biggest header. </h3>
+    <h4> This is the fourth biggest header. </h4>
+    <h5> This is the fifth biggest header. </h5>
+    <h6> This is the sixth biggest header. </h6>
+  </header>
 
 
-<nav>
-  <a href="https://www.w3schools.com/tags/tag_nav.asp"> This is a link to the nav element page on w3schools. </a>
+  <!--The above header tag contains all the h tags, each of which is a header. -->
+  <!--More than one header tag can be used in a document. -->
+  <!--Header can't be nested within another set of header tags, footer tags, or address tags.  -->
+  <!--Header tags can include other information, like about the author, links, and/or a logo. -->
+  <!--I found information about this header on https://www.w3schools.com/tags/tag_header.asp. -->
+
+
+  <nav>
+    <a href="https://www.w3schools.com/tags/tag_nav.asp"> This is a link to the nav element page on w3schools. </a>
+    <br/>
+    <a href="https://www.w3schools.com/tags/tag_footer.asp"> This is a link to the footer element page on w3schools. </a>
+    <br/>
+    <a href="https://www.w3schools.com/tags/tag_header.asp"> This is a link to the header element page on w3schools. </a>
+    <br/>
+    <a href="https://www.w3schools.com/tags/tag_section.asp"> This is a link to the section element page on w3schools. </a>
+    <br/>
+    <a href="https://www.w3schools.com/tags/tag_article.asp"> This is a link to the article element page on w3schools. </a>
+    <br/>
+
+    <hr/>
+    <a href=#main> Click here to go to the main section </a>
+    <br/>
+    <a href="#"> This is a dead link </a>
+
+    <a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg">
+      <br/>
+      This image is a link:
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="100px" height="100px" >
+    </a>
+  </nav>
+  <!-- nav element contains a list of links -->
+
   <br/>
-  <a href="https://www.w3schools.com/tags/tag_footer.asp"> This is a link to the footer element page on w3schools. </a>
   <br/>
-  <a href="https://www.w3schools.com/tags/tag_header.asp"> This is a link to the header element page on w3schools. </a>
   <br/>
-  <a href="https://www.w3schools.com/tags/tag_section.asp"> This is a link to the section element page on w3schools. </a>
-  <br/>
-  <a href="https://www.w3schools.com/tags/tag_article.asp"> This is a link to the article element page on w3schools. </a>
-  <br/>
+  <!-- Above are a few break lines that provide space between the visible text/images -->
+
+  <figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="100px" height="100px" >
+    <figcaption>This is a caption for the image above</figcaption>
+  </figure>
+
+  <section>
+    <p> This is a section that can have a header, footer, chapter, and another paragraph among others. </p>
+    <p> This is for putting together related information </p>
+  </section>
+
+  <article>
+    <p> This is an article that isn't dependent on other parts of the document to be understood. </p>
+  </article>
+  <!--articles can have blog posts, forums, news stories, and comments -->
+
+  <div> 
+    <p> If no similarities exist between information (ie. book described by "article" and chapters by "section") then div is applied </p>
+  </div>
+
+
+  <aside>
+    <p> This is an aside which has information similar to nearby parts of the document. </p>
+  </aside>
 
   <hr/>
-  <a href=#main> Click here to go to the main section </a>
-  <br/>
-  <a href="#"> This is a dead link </a>
+  <main id="main">
+    <p> The is a main element that has information not present in any other part of the document. </p>
+    <p> There can only be one of it's kind in any document. </p>
+    <p> This can't be inside a header, footer, nav, aside, and an article element. </p>
+  </main>
+  <hr/>
 
-  <a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg">
-    <br/>
-    This image is a link:
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="100px" height="100px" >
-  </a>
-</nav>
-<!-- nav element contains a list of links -->
+  <ol>
+    <li> First list item in ordered list </li>
+    <li> Second list item in ordered list </li>
+  </ol>
 
-<br/>
-<br/>
-<br/>
-<!-- Above are a few break lines that provide space between the visible text/images -->
-
-<figure>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="100px" height="100px" >
-  <figcaption>This is a caption for the image above</figcaption>
-</figure>
-
-<section>
-  <p> This is a section that can have a header, footer, chapter, and another paragraph among others. </p>
-  <p> This is for putting together related information </p>
-</section>
-
-<article>
-  <p> This is an article that isn't dependent on other parts of the document to be understood. </p>
-</article>
-<!--articles can have blog posts, forums, news stories, and comments -->
-
-<div> 
-  <p> If no similarities exist between information (ie. book described by <article> and chapters by <section>) then div is applied </p>
-</div>
-
-
-<aside>
-  <p> This is an aside which has information similar to nearby parts of the document. </p>
-</aside>
-
-<hr/>
-<main id="main">
-  <p> The is a main element that has information not present in any other part of the document. </p>
-  <p> There can only be one of it's kind in any document. </p>
-  <p> This can't be inside a header, footer, nav, aside, and an article element. </p>
-</main>
-<hr/>
-
-<ol>
-  <li> First list item in ordered list </li>
-  <li> Second list item in ordered list </li>
-</ol>
-
-<ul>
-  <li> First list item in unordered list </li>
-  <li> Second list item in unordered list </li>
-</ul>
+  <ul>
+    <li> First list item in unordered list </li>
+    <li> Second list item in unordered list </li>
+  </ul>
 
 
 
-<form action="/phpDoc">
-  This is a form element.
-  <input type="text" placeholder="Write something here!" required>
-  <input type="submit" value="Click Here!">
-  <button type="submit"> This is another button to submit the form </button>
+  <form action="/phpDoc">
+    This is a form element.
+    <input type="text" placeholder="Write something here!" required>
+    <input type="submit" value="Click Here!">
+    <button type="submit"> This is another button to submit the form </button>
   
-  Here is an option to enter your email address: 
-  <label for="email"> Email:
-    <input type="text" id="email">
-  </label>
+    Here is an option to enter your email address: 
+    <label for="email"> Email:
+      <input type="text" id="email">
+    </label>
   
   
-  Here are two radio options: 
-  <label for="option1"> 
-    <input id="option1" type="radio" name="options">Option 1
-  </label>
-  <label for="option2">
-    <input id="option2" type="radio" name="options">Option 2
-  </label>
+    Here are two radio options: 
+    <label for="option1"> 
+      <input id="option1" type="radio" name="options">Option 1
+    </label>
+    <label for="option2">
+      <input id="option2" type="radio" name="options">Option 2
+    </label>
   
-  Here are four checkboxes:
-  <label for="checkboxOption1"> 
-    <input id="checkboxOption1" type="checkbox" name="checkboxoptions" checked="checked">Checkbox Option 1
-  </label>
-  <label for="checkboxOption2"> 
-    <input id="checkboxOption2" type="checkbox" name="checkboxoptions">Checkbox Option 2
-  </label>
+    Here are four checkboxes:
+    <label for="checkboxOption1"> 
+      <input id="checkboxOption1" type="checkbox" name="checkboxoptions" checked="checked">Checkbox Option 1
+    </label>
+    <label for="checkboxOption2"> 
+      <input id="checkboxOption2" type="checkbox" name="checkboxoptions">Checkbox Option 2
+    </label>
     <label for="checkboxOption3"> 
-    <input id="checkboxOption3" type="checkbox" name="checkboxoptions">Checkbox Option 3
-  </label>
-  <label for="checkboxOption4"> 
-    <input id="checkboxOption4" type="checkbox" name="checkboxoptions">Checkbox Option 4
-  </label>
+      <input id="checkboxOption3" type="checkbox" name="checkboxoptions">Checkbox Option 3
+    </label>
+    <label for="checkboxOption4"> 
+      <input id="checkboxOption4" type="checkbox" name="checkboxoptions">Checkbox Option 4
+    </label>
   
-  Here is a fieldset: 
-  <fieldset class="firstClass">
-    <legend>This is a legend</legend>
-      <label for="checkboxOption1"> 
-        <input id="checkboxOption1" type="checkbox" name="checkboxoptions">Checkbox Fieldset Option 1
-      </label>
-      <label for="checkboxOption3"> 
-        <input id="checkboxOption3" type="checkbox" name="checkboxoptions">Checkbox Fieldset Option 2
-      </label>
-  </fieldset>
+    Here is a fieldset: 
+    <fieldset class="firstClass">
+      <legend>This is a legend</legend>
+        <label for="checkboxOption1"> 
+          <input id="checkboxOption1" type="checkbox" name="checkboxoptions">Checkbox Fieldset Option 1
+        </label>
+        <label for="checkboxOption3"> 
+          <input id="checkboxOption3" type="checkbox" name="checkboxoptions">Checkbox Fieldset Option 2
+        </label>
+    </fieldset>
     
-  <br/>
+    <br/>
     
-  Here is a date input:
-  <label for="dateId">
+    Here is a date input:
+    <label for="dateId">
       <input type="date" id="dateId" name="dateName"/>
-  </label>
+    </label>
                        
-</form>
+  </form>
   
-<time datetime="2018-12-09"> December 9, 2018 </time>
+  <time datetime="2018-12-09"> December 9, 2018 </time>
 
-<p> This is a paragraph. </p>
+  <p> This is a paragraph. </p>
 
-<p> This is a paragraph which also acts as a placeholder. </p>
+  <p> This is a paragraph which also acts as a placeholder. </p>
 
-<!-- This is a comment. -->
+  <!-- This is a comment. -->
 
 
-<footer>
-  <h6> Here is a Footer: <h6>
-  <p> Here is a sample footer. </p>
-  <p> It can contain copyright information and other links like to go back to the top of this page. </p>
-</footer>
-<!--mulple footer tags can be in an html doc -->
-<!--footers can have links to the top of the page and a map of the site-->
-<!--footers can also have copyright, author, and contact information -->
-<!--I found inforation on footers at https://www.w3schools.com/tags/tag_footer.asp -->
+  <footer>
+    <h6> Here is a Footer: </h6>
+    <p> Here is a sample footer. </p>
+    <p> It can contain copyright information and other links like to go back to the top of this page. </p>
+  </footer>
+  <!--mulple footer tags can be in an html doc -->
+  <!--footers can have links to the top of the page and a map of the site-->
+  <!--footers can also have copyright, author, and contact information -->
+  <!--I found inforation on footers at https://www.w3schools.com/tags/tag_footer.asp -->
+
+</html>
