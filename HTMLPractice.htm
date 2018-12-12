@@ -88,22 +88,22 @@
       <p> This is for putting together related information </p>
     </section>
 
-    <article accesskey="a">
+    <article accesskey="t" >
       <p> This is an article that isn't dependent on other parts of the document to be understood. </p>
     </article>
     <!--articles can have blog posts, forums, news stories, and comments -->
 
-    <div>
+    <div tabindex="1">
       <p> If no similarities exist between information (ie. book described by "article" and chapters by "section") then div is applied </p>
     </div>
 
 
-    <aside>
+    <aside tabindex="2">
       <p> This is an aside which has information similar to nearby parts of the document. </p>
     </aside>
 
     <hr/>
-    <main id="main">
+    <main id="main" tabindex="0">
       <p> The is a main element that has information not present in any other part of the document. </p>
       <p> There can only be one of it's kind in any document. </p>
       <p> This can't be inside a header, footer, nav, aside, and an article element. </p>
