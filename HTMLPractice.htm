@@ -83,7 +83,7 @@
       <figcaption>This is a caption for the image above</figcaption>
     </figure>
 
-    <section class="purpleText" tabindex="0">
+    <section class="purpleText">
       <p> This is a section that can have a header, footer, chapter, and another paragraph among others. </p>
       <p> This is for putting together related information </p>
     </section>
@@ -93,17 +93,17 @@
     </article>
     <!--articles can have blog posts, forums, news stories, and comments -->
 
-    <div>
+    <div tabindex="1">
       <p> If no similarities exist between information (ie. book described by "article" and chapters by "section") then div is applied </p>
     </div>
 
 
-    <aside>
+    <aside tabindex="2">
       <p> This is an aside which has information similar to nearby parts of the document. </p>
     </aside>
 
     <hr/>
-    <main id="main">
+    <main id="main" tabindex="0">
       <p> The is a main element that has information not present in any other part of the document. </p>
       <p> There can only be one of it's kind in any document. </p>
       <p> This can't be inside a header, footer, nav, aside, and an article element. </p>
