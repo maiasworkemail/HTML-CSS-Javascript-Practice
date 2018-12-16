@@ -56,12 +56,19 @@
       }
 
       .boxGroup{
-          display: flex;
-          flex-direction: row-reverse;
-          flex-flow: wrap; 
+        display: flex;
+        flex-direction: row-reverse;
+        flex-flow: wrap; 
+        height: 100px;
           
-          background-color: aquamarine; 
-          justify-content: center;
+        background-color: aquamarine; 
+        justify-content: center;
+          
+      }
+        
+      .boxGroup2{
+        align-items: center;
+        
       }
 
         
@@ -153,6 +160,15 @@
     </div>
     <!--adding the flex property to "boxgroup" causes it to be displayed next to each other-->
 
+      
+    <div class="boxGroup boxGroup2" >
+      <div class="redBox"> redbox </div>
+      <div class="blueBox"> bluebox </div>
+    </div>
+    <!--adding align-items=center causes it to be in the center unlike div above-->
+  
+      
+      
     <figure class="purpleText">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="100px" height="100px" >
       <figcaption>This is a caption for the image above</figcaption>
