@@ -78,6 +78,26 @@
          
       }
 
+      .shrinkGroup{
+        display: flex;    
+            
+      }
+      .shrink1{
+        background-color: hotpink;
+        flex-basis: 100px; 
+        flex-shrink: 1;
+        width: 100%;
+        height: 200px; 
+      }
+    
+      .shrink2{
+        background-color: green;
+        flex-basis: 100px; 
+        flex-shrink: 2; 
+        width: 100%; 
+        height: 200px;
+        
+      }
         
       .redBox{
         background-color: red;
@@ -161,7 +181,12 @@
     <br/>
     <!-- Above are a few break lines that provide space between the visible text/images -->
 
-    <div class="boxGroup" >
+    <div class=shrinkGroup>
+      <div class=shrink1> FlexShrink= 1 </div>
+      <div class=shrink2> FlexShrink= 2</div>
+    </div>
+      
+    <div class="boxGroup " >
       <div class="redBox"> redbox </div>
       <div class="blueBox"> bluebox </div>
     </div>
@@ -169,9 +194,9 @@
 
     <br/>
       
-    <div class="boxGroup boxGroup2" >
+    <div class="boxGroup boxGroup2 " >
       <div class="redBox"> redbox </div>
-      <div class="blueBox"> bluebox </div>
+      <div class="blueBox "> bluebox </div>
     </div>
     <!--adding align-items=center causes it to be in the center unlike div above-->
   
