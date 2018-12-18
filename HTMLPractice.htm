@@ -27,6 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
 
     <style>
+        
       .firstClasseWithFieldSet{
         color: blue;
       }
@@ -62,6 +63,21 @@
 
       }
 
+      .fontSizes{
+        border-style: solid;  
+        border-width: 5px;
+      }
+      .remFont
+      {
+        font-size: 10rem;    
+      }
+      .emFont{
+        font-size: 10em; 
+      }
+      .pxFont{
+        font-size: 10px;
+      }
+        
       .boxGroup{
         display: flex;
         flex-direction: row-reverse;
@@ -203,6 +219,12 @@
     <br/>
     <!-- Above are a few break lines that provide space between the visible text/images -->
 
+    <div class="fontSizes">
+      <p class="remFont"> 10rem font</p> 
+      <p class="emFont"> 10em font</p>
+      <p class="pxFont"> 10px font </p>
+    </div>
+ 
     <div class=tripleFlexGroup>
       <div class="tripleFlex1"> flex1</div>
       <div class="tripleFlex2"> flex2 </div>
