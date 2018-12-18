@@ -77,6 +77,29 @@
         align-items: center;
          
       }
+    
+      .tripleFlexGroup{
+        display: flex;
+        height: 600px;
+        width: 600px;
+            
+      }
+      .tripleFlex1{
+        background-color: blueviolet;
+        width: 200px;
+        flex-shrink: 2 2 200px;
+        
+        height: 200px; 
+      }
+    
+      .tripleFlex2{
+        background-color: palevioletred;
+        width: 200px; 
+        flex-shrink: 1 1 200px;
+         
+        height: 200px;
+        
+      }
 
       .shrinkGroup{
         display: flex;    
@@ -179,6 +202,12 @@
     <br/>
     <!-- Above are a few break lines that provide space between the visible text/images -->
 
+    <div class=tripleFlexGroup>
+      <div class="tripleFlex1"> </div>
+      <div class="tripleFlex2">  </div>
+    </div>
+      
+      
     <div class=shrinkGroup>
       <div class=shrink1> FlexShrink= 1 </div>
       <div class=shrink2> FlexShrink= 2</div>
