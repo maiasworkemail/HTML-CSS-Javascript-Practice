@@ -45,6 +45,24 @@
         
       }
         
+      .koalaEarLeft{
+        position: absolute; 
+        height: 50px; 
+        width: 50px;  
+        background-color: green;
+        
+        top: -100px;
+      }
+        
+      .koalaEarRight{
+        position: absolute; 
+        height: 50px; 
+        width: 50px;  
+        background-color: green;
+        
+        top: -100px;
+        left: 100px;
+      }
       .koalaBody{
         position: absolute; 
         height: 100px; 
@@ -56,7 +74,7 @@
         
       }
     
-    
+      
         
       .hex-colors{
         background-color:#000;
@@ -262,7 +280,10 @@
 
       
     <div class="koala"> 
-      <div class="koalaHead"> </div>
+      <div class="koalaHead"> 
+        <div class="koalaEarLeft"></div>
+        <div class="koalaEarRight"></div>
+      </div>
         
       <div class="koalaBody"> </div>
     </div>
