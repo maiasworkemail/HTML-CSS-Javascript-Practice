@@ -9,6 +9,7 @@ myAge=24;
 //variable initialization 
 
 
+var undefinedVar;     //variable of data type "undefined" (since there's no value initialized to it)
 var integerVar=2018;  //variable of data type "integer"
 var stringVar="text"; //variable of data type "string"  
 var booleanVar= true; //variable of data type "boolean" 
