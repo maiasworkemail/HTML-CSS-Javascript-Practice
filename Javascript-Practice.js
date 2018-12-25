@@ -11,3 +11,4 @@ myAge=24;
 
 var integerVar=2018;  //variable of data type "integer"
 var stringVar="text"; //variable of data type "string"  
+var booleanVar= true; //variable of data type "boolean" 
