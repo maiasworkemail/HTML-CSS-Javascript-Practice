@@ -3,4 +3,9 @@
   Unlike in-line comments it can take up two lines */
 
 var myAge; 
+//variable declaration 
+
 myAge=24; 
+//variable initialization 
+
+
