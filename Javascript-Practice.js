@@ -3,3 +3,4 @@
   Unlike in-line comments it can take up two lines */
 
 var myAge; 
+myAge=24; 
