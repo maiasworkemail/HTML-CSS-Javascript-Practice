@@ -9,3 +9,4 @@ myAge=24;
 //variable initialization 
 
 
+var integerVar=2018; //varible of data type integer
