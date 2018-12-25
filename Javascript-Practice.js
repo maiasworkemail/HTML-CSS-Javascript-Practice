@@ -19,3 +19,6 @@ var varNullObject=null;
 //you can empty an object by setting it to null or undefined
 var varListObject={objectName1:"object1Value1", objectName2:"object1Value2", objectName3:"object1Value3"};
 //above is an object with three properties: objectName1, objectName2, and objectName3
+
+var varArray= ["arrayItem1", "arrayItem2", "arrayItem3"];
+//this is an array with three array items
