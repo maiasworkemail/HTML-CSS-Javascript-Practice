@@ -10,6 +10,7 @@ myAge=24;
 
 
 var undefinedVar;     //variable of data type "undefined" (since there's no value initialized to it)
+                      //if this gets added with an integer, an error message "NaN" appears (aka "Not a Number")
 var integerVar=2018;  //variable of data type "integer"
 var stringVar="text"; //variable of data type "string"  
 var booleanVar= true; //variable of data type "boolean" 
