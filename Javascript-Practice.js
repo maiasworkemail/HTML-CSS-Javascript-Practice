@@ -13,3 +13,5 @@ var undefinedVar;     //variable of data type "undefined" (since there's no valu
 var integerVar=2018;  //variable of data type "integer"
 var stringVar="text"; //variable of data type "string"  
 var booleanVar= true; //variable of data type "boolean" 
+
+var varNullObject=null; //variable of data type object (null is of type object, not null)
