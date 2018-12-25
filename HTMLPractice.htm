@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <!-- The above tells me that this is HTML 5 -->
-<html lang="en-US"> 
+<html lang="en-US">
   <!--with the lang attribute I included "en" for english language and "US" for dialect-->
   <!--this helps with screen readers, ie. blind, and search engines -->
   <head>
@@ -18,7 +18,7 @@
 
     <meta name="description" content="HTML and CSS Practice">
     <!--this meta element gives a description of what my document is about -->
-      
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--viewport = visible part of document that viewer can see on device without scrolling-->
     <!--width=device-width means width of device matches width of doc -->
@@ -27,89 +27,89 @@
     <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
 
     <style>
-        
+
       :root{
         --koala-skin: darkturquoise;
       }
-        
+
       .koala{
-          
-        position: relative;   
-        height: 500px; 
-        width: 500px; 
-          
+
+        position: relative;
+        height: 500px;
+        width: 500px;
+
         left: 200px;
-        
-      }  
-        
+
+      }
+
       .koalaHead{
-        position: absolute; 
-        height: 100px; 
+        position: absolute;
+        height: 100px;
         width: 100px;
-        background: var(--koala-skin, black); 
-         
+        background: var(--koala-skin, black);
+
         border-radius: 50%;
         top: 100px;
-        
+
       }
-        
+
       .koalaEarLeft{
-        position: absolute; 
-        height: 50px; 
-        width: 50px;  
+        position: absolute;
+        height: 50px;
+        width: 50px;
         background-color: green;
-        
+
         top: -25px;
         left: -25px;
       }
-        
+
       .koalaEarRight{
-        position: absolute; 
-        height: 50px; 
-        width: 50px;  
+        position: absolute;
+        height: 50px;
+        width: 50px;
         background-color: green;
-        
+
         top: -25px;
         left: 75px;
       }
       .koalaBody{
-        position: absolute; 
-        height: 100px; 
-        width: 100px; 
+        position: absolute;
+        height: 100px;
+        width: 100px;
         background: red;
-          
+
         border-radius: 40%;
-        top: 200px; 
-        
+        top: 200px;
+
       }
-    
+
       .koalaLegLeft
       {
-        background-color: black; 
+        background-color: black;
         background-color: var(--koala-skin, black);
-          
+
         left: 100px;
-        
+
         height: 50px;
-        width: 50px; 
-          
-        position: absolute; 
+        width: 50px;
+
+        position: absolute;
       }
-        
+
       .koalaLegRight
       {
         background-color: aqua;
-          
-        
+
+
         height: 50px;
         width: 50px;
-          
-        position: absolute; 
-          
-        animation-name: color-change; 
-        animation-duration: 10s; 
+
+        position: absolute;
+
+        animation-name: color-change;
+        animation-duration: 10s;
       }
-        
+
       @keyframes color-change{
         10%
         {
@@ -117,26 +117,26 @@
         }
         20%
         {
-          background-color: yellow; 
+          background-color: yellow;
         }
         30%
         {
-          background-color: green; 
+          background-color: green;
         }
         }
-    
-        
-      
-        
+
+
+
+
       .hex-colors{
         background-color:#000;
         border-style: dashed;
         border-width: 2px;
         border-color:#999;
         color: rgb(255, 255, 255);
-        
+
       }
-        
+
       .firstClasseWithFieldSet{
         color: blue;
       }
@@ -158,113 +158,113 @@
         border-width: 10px;
         border-style: dotted;
         border-radius: 20px;
-        
+
 
         background-color: purple;
       }
-        
+
       nav{
-        padding: 10px 20px 20px 10px;  
+        padding: 10px 20px 20px 10px;
       }
 
       a{
-          
+
         color: lawngreen;
 
       }
 
       .fontSizes{
-        border-style: solid;  
+        border-style: solid;
         border-width: 5px;
       }
       .remFont
       {
-        font-size: 10rem;    
+        font-size: 10rem;
       }
       .emFont{
-        font-size: 10em; 
+        font-size: 10em;
       }
       .pxFont{
         font-size: 10px;
       }
-    
-        
+
+
       .boxGroup{
         display: flex;
         flex-direction: row-reverse;
-        flex-flow: wrap; 
+        flex-flow: wrap;
         height: 100px;
-          
-        background-color: aquamarine; 
+
+        background-color: aquamarine;
         justify-content: center;
-          
+
       }
-        
+
       .boxGroup2{
         align-items: center;
-         
+
       }
-      
-    
+
+
       .tripleFlexGroup{
         display: flex;
         height: 300px;
-      
-            
+
+
       }
       .tripleFlex1{
         background-color: blueviolet;
         flex: 1 1 300px;
         order: 2;
       }
-    
+
       .tripleFlex2{
         background-color: orangered;
         flex: 2 2 300px;
-        order: 1; 
-        
+        order: 1;
+
       }
 
       .shrinkGroup{
-        display: flex;    
-            
+        display: flex;
+
       }
       .shrink1{
         background-color: hotpink;
         flex-shrink: 1;
         width: 100%;
-        height: 200px; 
+        height: 200px;
       }
-    
+
       .shrink2{
         background-color: green;
-        flex-shrink: 2; 
-        width: 100%; 
+        flex-shrink: 2;
+        width: 100%;
         height: 200px;
-        
+
       }
-        
+
       .redBox{
         background-color: red;
-        padding: 10px; 
+        padding: 10px;
       }
-        
+
       .blueBox{
         background-color: blue;
-        margin: 10px; 
+        margin: 10px;
       }
 
       img{
         display: block;
         max-width: 100%;
       }
-        
+
       #asd{
-        background-color: aqua;     
+        background-color: aqua;
       }
-        
+
       [datetime="2018-12-09"]{
-        background-color: lawngreen;    
+        background-color: lawngreen;
       }
 
       @media(max-width: 500px)
@@ -330,21 +330,22 @@
     <br/>
     <!-- Above are a few break lines that provide space between the visible text/images -->
 
-    <u> <p>This is a description underlined with the <u> tags of the below divs forming the shape of a koala: </p> </u>  
-    <div class="koala"> 
-      <div class="koalaHead"> 
+    <u> <p>This is a description underlined with the "<"u> tags of the below divs forming the shape of a koala: </p> </u>
+    <em> <p> This is an italicized paragraph using the "<"em> tags </p> </em>
+    <div class="koala">
+      <div class="koalaHead">
         <div class="koalaEarLeft"></div>
         <div class="koalaEarRight"></div>
       </div>
-        
-      <div class="koalaBody"> 
-          
+
+      <div class="koalaBody">
+
         <div class="koalaLegLeft"> </div>
         <div class="koalaLegRight"> </div>
       </div>
     </div>
-      
-      
+
+
     <div class="hex-colors">
       <p style="color:#F00;">Red CSS Values: #F00, #FF0000, rgb(255, 0, 0) </p>
       <br/>
@@ -357,7 +358,7 @@
       <p style="color:rgb(0,0,255)">Blue CSS Values: #00F, #0000FF, rgb(0, 0, 255)  ></p>
       <br/>
       <p style="color:#FF00FF">Fuchsia CSS Values: #F0F, #FF00FF, rgb(255, 0, 255) ></p>
-      
+
       <br/>
       <br/>
       <p>There are over 16 million color combinations with hex notation #_ _ _ _ _ _</p>
@@ -368,39 +369,39 @@
       <br/>
       <p>The colored text above overrides the white text since inline style attributes have higher priority vs. class style attributes</p>
     </div>
-      
+
     <code> Computer code (ie. java) should go between the "code" tags.</code>
     <br/>
     <br/>
     <samp> Output from computer code should go here. </samp>
 
-      
+
     <br/>
     <p>Below is a meter (used by the meter tag:</p>
-    <meter min="0" max="100" value="7" > 
-    This is a meter tag. 
+    <meter min="0" max="100" value="7" >
+    This is a meter tag.
     </meter>
-      
-      
+
+
     <div class="fontSizes">
-      <p class="remFont"> 10rem font</p> 
+      <p class="remFont"> 10rem font</p>
       <p class="emFont"> 10em font</p>
       <p class="pxFont"> <mark>10px font</mark> </p>
       <p style="font-size:20px"> <mark>20px font </mark> </p>
       <p style="font-size:30px"> <mark>30px font </mark> </p>
     </div>
- 
+
     <div class=tripleFlexGroup>
       <div class="tripleFlex1"> <i>flex1</i></div>
       <div class="tripleFlex2"> <em>flex2</em> </div>
     </div>
-      
-    
+
+
     <div class=shrinkGroup>
       <div class=shrink1> <strong> FlexShrink= 1 </strong></div>
       <div class=shrink2> FlexShrink= 2</div>
     </div>
-      
+
     <div class="boxGroup " >
       <div class="redBox"> redbox </div>
       <div class="blueBox"> bluebox </div>
@@ -408,18 +409,18 @@
     <!--adding the flex property to "boxgroup" causes it to be displayed next to each other-->
 
     <br/>
-      
+
     <div class="boxGroup boxGroup2 " >
       <div class="redBox"> redbox </div>
       <div class="blueBox "> bluebox </div>
     </div>
     <!--adding align-items=center causes it to be in the center unlike div above-->
-  
+
     <abbr title="As Soon As Possible"> ASAP </abbr>
     <p> Above "ASAP" is using the "abbr" element. </p>
     <p> It can be used for abbreviations/accronyms. </p>
     <p> If you hover over it it will activate the "title" attribute and shows what it stands for.</p>
-      
+
     <figure class="purpleText">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML logo" width="100px" height="100px" >
       <figcaption>This is a caption for the image above</figcaption>
@@ -432,7 +433,7 @@
 
     <article accesskey="t" >
       <p> This is an article that isn't dependent on other parts of the document to be understood. </p>
-      <address style="text-align: center"> 
+      <address style="text-align: center">
         <p> This is an address tag</p>
         <p> It gives contact info of the article</p>
         <p> Article typed by:<a href="mailto:maiasworkemail@gmail.com">Maia</a> </p>
