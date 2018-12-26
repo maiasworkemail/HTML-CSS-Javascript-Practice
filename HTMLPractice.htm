@@ -363,6 +363,7 @@
       <br/>
       <p style="color:#FF00FF">Fuchsia CSS Values: #F0F, #FF00FF, rgb(255, 0, 255) ></p>
 
+    
       <br/>
       <br/>
       <p>There are over 16 million color combinations with hex notation #_ _ _ _ _ _</p>
@@ -372,6 +373,15 @@
       <p>There are 256 possible values (0-255) for each of the three slots in rgb notation (ie. rgb(255,255,255) is the highest value which is white). </p>
       <br/>
       <p>The colored text above overrides the white text since inline style attributes have higher priority vs. class style attributes</p>
+        
+      <p style="color: rgba(255, 0 ,0 , 1)"> This is fully opaque for red: rgb(255, 255, 255,1) (normal, same as above)</p>
+        
+      <p style="color: rgba(255, 0 ,0 , .5)"> This is half opaque for red: rgb(255, 255, 255,0.5) </p>
+        
+      <p style="color: rgba(255, 0 ,0 , 0);background-color: blue"> This is clear for red: rgb(255, 255, 255,0) </p>
+        
+      <p>Highlight the above blue line and you'll see the text's alpha/level of opacity. </p>
+      <p>(This text doesn't show on a white or black background but I put in blue to make it more obvious you have to highlight it to see it) </p>
     </div>
 
     <code> Computer code (ie. java) should go between the "code" tags.</code>
