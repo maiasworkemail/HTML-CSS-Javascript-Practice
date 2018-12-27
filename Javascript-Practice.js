@@ -33,3 +33,16 @@ console.log(int1);
 
 int1--; 
 console.log(int1); 
+
+
+
+
+var additionVar = 1 + 1; 
+var subtractionVar = 3 - 2;
+var multiplicationVar = 2 * 3; 
+var divisionVar = 10 / 5; 
+
+console.log("additionVar", additionVar);
+console.log("subtractionVar", subtractionVar);
+console.log("multiplicationVar", multiplicationVar);
+console.log("divisionVar", divisionVar);
