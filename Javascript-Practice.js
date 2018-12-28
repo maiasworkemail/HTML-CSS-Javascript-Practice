@@ -29,10 +29,10 @@ var varArray = ["arrayItem1", "arrayItem2", "arrayItem3"];
 
 var int1 = 1;
 int1++;
-console.log(int1);
+console.log("increment", int1);
 
 int1--;
-console.log(int1);
+console.log("decrement", int1);
 
 
 
