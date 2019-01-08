@@ -28,6 +28,7 @@ function firstFunction(firstParameter) {
   console.log(firstParameter);
 }
 
+firstFunction(3);
 
 
 var int1 = 1;
