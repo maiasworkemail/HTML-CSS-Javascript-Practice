@@ -24,6 +24,9 @@ var varListObject = {objectName1: "object1Value1", objectName2: "object1Value2",
 var varArray = ["arrayItem1", "arrayItem2", "arrayItem3"];
 //this is an array with three array items
 
+function firstFunction(firstParameter) {
+  console.log(firstParameter);
+}
 
 
 
