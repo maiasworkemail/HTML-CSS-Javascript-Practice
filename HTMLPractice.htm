@@ -295,7 +295,7 @@
         animation-name: ball2; 
         animation-duration: 3s; 
         animation-iteration-count: infinite;
-        animation-timing-function: linear;
+        animation-timing-function: ease;
       }
       .ball3{
         height: 30px; 
@@ -310,7 +310,7 @@
         animation-name: ball3; 
         animation-duration: 3s; 
         animation-iteration-count: infinite;
-        animation-timing-function: linear;
+        animation-timing-function: ease-in;
       }
       .ball4{
         height: 30px; 
@@ -325,7 +325,7 @@
         animation-name: ball4; 
         animation-duration: 3s; 
         animation-iteration-count: infinite;
-        animation-timing-function: linear;
+        animation-timing-function: ease-out;
       }
       .ball5{
         height: 30px; 
@@ -340,7 +340,7 @@
         animation-name: ball5; 
         animation-duration: 3s; 
         animation-iteration-count: infinite;
-        animation-timing-function: linear;
+        animation-timing-function: ease-in-out;
       }
       .ball6{
         height: 30px; 
@@ -354,7 +354,7 @@
         animation-name: ball6; 
         animation-duration: 3s; 
         animation-iteration-count: infinite;
-        animation-timing-function: linear;
+        animation-timing-function: cubic-bezier(.25, .25, .75, .75);
       }
         
       @keyframes ball1{
@@ -605,12 +605,12 @@
     <!--I found information about this header on https://www.w3schools.com/tags/tag_header.asp. -->
     
     <div class="ballArea">
-      <div class="ball1"> </div>
-      <div class="ball2"> </div>
-      <div class="ball3"> </div>
-      <div class="ball4"> </div>
-      <div class="ball5"> </div>
-      <div class="ball6"> </div>
+      <div class="ball1"> Linear Motion </div>
+      <div class="ball2"> Ease Motion</div>
+      <div class="ball3"> Ease-in Motion</div>
+      <div class="ball4"> Ease-out Motion</div>
+      <div class="ball5"> Ease-in-out Motion</div>
+      <div class="ball6"> Cubic-Bezier (linear motion)</div>
     </div>
 
     <nav class="pinkBorder">
