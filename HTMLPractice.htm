@@ -25,11 +25,11 @@
     <!--intial-scale=1.0 means the whole doc fits on the device screen we're looking on-->
 
     <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
-      
+
     <script src="Javascript-Practice.js">
-        
+
         //debugging statments like console.log can go here
-      
+
     </script>
 
     <style>
@@ -37,19 +37,19 @@
       :root{
         --koala-skin: darkturquoise;
       }
-        
+
       .fixedPosition{
          background-color: aqua;
-          
-         position:fixed; 
-         top:0px; 
-         right: 0px;"   
+
+         position:fixed;
+         top:0px;
+         right: 0px;"
       }
 
       .fixedPosition:hover{
          background-color: red;
-      }  
-        
+      }
+
       .koala{
 
         position: relative;
@@ -79,7 +79,7 @@
 
         top: -25px;
         left: -25px;
-          
+
         border-radius: 20px 10px 20px 10px;
       }
 
@@ -91,10 +91,10 @@
 
         top: -25px;
         left: 75px;
-          
+
         border-radius: 10px 20px 10px 20px;
       }
-        
+
       .koalaEyeLeft{
         position: absolute;
         height: 10px;
@@ -103,8 +103,8 @@
 
         top: 40px;
         left: 30px;
-          
-        border-radius: 50%; 
+
+        border-radius: 50%;
       }
 
       .koalaEyeRight{
@@ -115,35 +115,35 @@
 
         top: 40px;
         left: 60px;
-          
-        border-radius: 50%; 
+
+        border-radius: 50%;
       }
-        
+
       .koalaNose{
-        position: absolute; 
-        height: 30px; 
-        width: 20px; 
-          
-        background-color: black; 
-          
-        top: 50px; 
+        position: absolute;
+        height: 30px;
+        width: 20px;
+
+        background-color: black;
+
+        top: 50px;
         left: 40px;
-          
+
         border-radius: 30px;
       }
-        
+
       .koalaMouth{
-        position: absolute; 
-        height: 2px; 
-        width: 10px; 
-          
+        position: absolute;
+        height: 2px;
+        width: 10px;
+
         background-color: black;
-          
+
         top: 90px;
         left: 40px;
-        
-        
-      }  
+
+
+      }
       .koalaBody{
         position: absolute;
         height: 100px;
@@ -154,7 +154,7 @@
         top: 200px;
 
       }
-        
+
       .koalaArmLeft
       {
         background-color: black;
@@ -168,19 +168,19 @@
 
         position: absolute;
         z-index: -1;
-          
+
         border-radius: 50px 10px 50px 10px;
-          
-        animation-name: armMove; 
+
+        animation-name: armMove;
         animation-duration: 2s;
-        animation-iteration-count: infinite; 
+        animation-iteration-count: infinite;
       }
 
       .koalaArmRight
       {
         background-color: aqua;
 
-        left: 80px; 
+        left: 80px;
         top: 5px;
 
         height: 50px;
@@ -188,7 +188,7 @@
 
         position: absolute;
         z-index: -1;
-          
+
         border-radius: 10px 50px 10px 50px;
       }
 
@@ -205,7 +205,7 @@
 
         position: absolute;
         z-index: -1;
-          
+
         border-radius: 60px 10px 60px 10px;
       }
 
@@ -213,7 +213,7 @@
       {
         background-color: aqua;
 
-        left: 80px; 
+        left: 80px;
         top: 80px;
 
         height: 50px;
@@ -221,7 +221,7 @@
 
         position: absolute;
         z-index: -1;
-          
+
         border-radius: 10px 60px 10px 60px;
 
         animation-name: color-change;
@@ -242,14 +242,14 @@
         {
           background-color: green;
         }
-        
+
         50%{
-          opacity: .1;      
+          opacity: .1;
         }
         }
 
 
-      
+
       @keyframes armMove{
           10%{
               transform: rotate(50deg);
@@ -258,182 +258,182 @@
               transform: rotate(0deg);
           }
       }
-    
+
       .ballArea{
-        height: 400px; 
-        width: 390px; 
+        height: 400px;
+        width: 390px;
         background-color: springgreen;
-        position: relative; 
+        position: relative;
       }
-        
+
       .ball1{
-        height: 30px; 
+        height: 30px;
         width: 30px;
-        
+
         left: 30px;
-        background-color: blue; 
-        position: absolute; 
-          
+        background-color: blue;
+        position: absolute;
+
         border-radius: 50%;
-        
-        animation-name: ball1; 
-        animation-duration: 3s; 
+
+        animation-name: ball1;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
       }
- 
+
       .ball2{
-        height: 30px; 
+        height: 30px;
         width: 30px;
-          
-        left: 90px;  
-        background-color: red; 
-        position: absolute; 
-          
+
+        left: 90px;
+        background-color: red;
+        position: absolute;
+
         border-radius: 50%;
-          
-        animation-name: ball2; 
-        animation-duration: 3s; 
+
+        animation-name: ball2;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: ease;
       }
       .ball3{
-        height: 30px; 
+        height: 30px;
         width: 30px;
-          
-        left: 150px; 
-        background-color: purple; 
+
+        left: 150px;
+        background-color: purple;
         position: absolute;
-        
+
         border-radius: 50%;
-        
-        animation-name: ball3; 
-        animation-duration: 3s; 
+
+        animation-name: ball3;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in;
       }
       .ball4{
-        height: 30px; 
+        height: 30px;
         width: 30px;
-          
+
         left: 210px;
-        background-color: blue; 
-        position: absolute;   
-        
+        background-color: blue;
+        position: absolute;
+
         border-radius: 50%;
-          
-        animation-name: ball4; 
-        animation-duration: 3s; 
+
+        animation-name: ball4;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-out;
       }
       .ball5{
-        height: 30px; 
+        height: 30px;
         width: 30px;
-          
+
         left: 270px;
-        background-color: red; 
-        position: absolute;    
-        
+        background-color: red;
+        position: absolute;
+
         border-radius: 50%;
-          
-        animation-name: ball5; 
-        animation-duration: 3s; 
+
+        animation-name: ball5;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
       }
       .ball6{
-        height: 30px; 
+        height: 30px;
         width: 30px;
-          
+
         left: 330px;
-        background-color: purple; 
-        position: absolute; 
-        
+        background-color: purple;
+        position: absolute;
+
         border-radius: 50%;
-        animation-name: ball6; 
-        animation-duration: 3s; 
+        animation-name: ball6;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: cubic-bezier(.25, .25, .75, .75);
       }
-        
+
       @keyframes ball1{
           0%{
-            top: 0px; 
+            top: 0px;
           }
           50%{
-            top: 300px; 
+            top: 300px;
           }
           100%{
-            top: 0px; 
+            top: 0px;
           }
       }
-    
+
       @keyframes ball2{
           0%{
-            top: 0px; 
+            top: 0px;
           }
           50%{
-            top: 300px; 
+            top: 300px;
           }
           100%{
-            top: 0px; 
+            top: 0px;
           }
       }
-        
+
       @keyframes ball3{
           0%{
-            top: 0px; 
+            top: 0px;
           }
           50%{
-            top: 300px; 
+            top: 300px;
           }
           100%{
-            top: 0px; 
+            top: 0px;
           }
       }
-        
+
       @keyframes ball4{
           0%{
-            top: 0px; 
+            top: 0px;
           }
           50%{
-            top: 300px; 
+            top: 300px;
           }
           100%{
-            top: 0px; 
+            top: 0px;
           }
       }
-        
+
       @keyframes ball5{
           0%{
-            top: 0px; 
+            top: 0px;
           }
           50%{
-            top: 300px; 
+            top: 300px;
           }
           100%{
-            top: 0px; 
+            top: 0px;
           }
       }
-        
+
       @keyframes ball6{
           0%{
-            top: 0px; 
+            top: 0px;
           }
           50%{
-            top: 300px; 
+            top: 300px;
           }
           100%{
-            top: 0px; 
+            top: 0px;
           }
       }
-        
+
       table, th, td{
-        border: 1px solid black; 
+        border: 1px solid black;
         border-collapse: collapse;
       }
-        
+
       .hex-colors{
         background-color:#000;
         border-style: dashed;
@@ -563,7 +563,7 @@
       img{
         display: block;
         max-width: 100%;
-          
+
       }
 
       #asd{
@@ -591,8 +591,8 @@
   <body>
 
     <div class="fixedPosition"> This is fixed since it moves as I scroll!</div>
-    
-      
+
+
     <header style="color: green;" >
       <h1> This is the biggest header. Each page can have only one to show the main subject for search engines to recognize. </h1>
       <h2> This is the second biggest header. </h2>
@@ -608,7 +608,7 @@
     <!--Header can't be nested within another set of header tags, footer tags, or address tags.  -->
     <!--Header tags can include other information, like about the author, links, and/or a logo. -->
     <!--I found information about this header on https://www.w3schools.com/tags/tag_header.asp. -->
-    
+
     <div class="ballArea">
       <div class="ball1"> Linear Motion </div>
       <div class="ball2"> Ease Motion</div>
@@ -647,43 +647,43 @@
 
     <p> The following uses a cite tag: <cite>Harry Potter and the Goblet of Fire</cite></p>
     <p> The cite element surrounds titles for books, movies, songs, TV shows, paintings, sculptures, and more. </p>
-      
+
     <details>
       <summary> This is a summary using "summary" tags that shows the visible part of "detail" element.</summary>
       <p> This is a paragraph hidden from the "detail" element. Click on the arrow to hide and unhide this paragraph. </p>
     </details>
-      
-    
+
+
     <textarea rows="10" cols="10" autofocus="autofocus">This is a "textarea" element with 10 rows and 10 columns. There is no limit on how many characters you can type and it uses the font-family Courier.</textarea>
-      
+
     <br/>
     <p> Zoom in on the picture below to see the water close up: </p>
-    <picture> 
+    <picture>
       <source media="(max-width: 500px)" srcset="https://www.goodfreephotos.com/albums/other-photos/large-water-droplet-hitting-water.jpg">
-      <img src="https://www.goodfreephotos.com/albums/united-states/wisconsin/perrot-state-park/wisconsin-perrot-state-park-beautiful-dusk-picture-on-the%20river.jpg" alt="landscape" height="200px" width="200px">   
+      <img src="https://www.goodfreephotos.com/albums/united-states/wisconsin/perrot-state-park/wisconsin-perrot-state-park-beautiful-dusk-picture-on-the%20river.jpg" alt="landscape" height="200px" width="200px">
     </picture>
-        
-      
-      
+
+
+
     <table > This is a table using the "table" and "tr" (table row) tags:
       <caption> This is a caption for a table (only one set of "caption" tags allowed per table).</caption>
-      <tr> 
+      <tr>
         <th> This is a table header using the "th" tags</th>
         <th> This is a table header using the "th" tags</th>
         <th> This is a table header using the "th" tags</th>
       </tr>
-      <tr> 
+      <tr>
         <td> This is table data using the "td" tags</td>
         <td> This is table data using the "td" tags</td>
         <td> This is table data using the "td" tags</td>
       </tr>
-      <tr> 
+      <tr>
         <td> This is table data using the "td" tags</td>
         <td> This is table data using the "td" tags</td>
         <td> This is table data using the "td" tags</td>
       </tr>
     </table>
-      
+
     <dl>This is a description list using the "dl" tags
       <dt> This is a term using the "dt" tag</dt>
       <dd> This is a description for the term using the "dd" tags. </dd>
@@ -691,40 +691,40 @@
       <dt> This is a second term using the "dt" tag</dt>
       <dd> This is a second description for the second term using the "dd" tags. </dd>
     </dl>
-      
-    <audio controls= "controls"> 
-      <source src="https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" > 
+
+    <audio controls= "controls">
+      <source src="https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" >
     </audio>
-      
+
     <s> This is crossed out text using the "s" tags.</s>
-      
+
     <q> This is a quote using "q" tags (short quotes).</q>
-      
+
     <p> Here is is a blockquote (long quotes) using "blockquote" tags: </p>
     <blockquote cite="https://www.britannica.com/biography/Elon-Musk">Elon Musk, (born June 28, 1971, Pretoria, South Africa), South African-born American entrepreneur who cofounded the electronic-payment firm PayPal and formed SpaceX, maker of launch vehicles and spacecraft. He was also one of the first significant investors in, as well as chief executive officer of, the electric car manufacturer Tesla.</blockquote>
-    
+
     <br/>
     <br/>
-      
+
     <p><bdo dir=ltr>This text is left to right. </bdo></p>
     <p><bdo dir=rtl>This text is right to left. </bdo></p>
-      
-      
+
+
     <div style="float:left; width: 30px;"> This is a 30px width div that floats to the left!</div>
     <div style="float:right; width: 30px;"> This is a 30px width div that floats to the left!</div>
-    
-    
-      
+
+
+
     <br/>
     <br/>
     <br/>
     <!-- Above are a few break lines that provide space between the visible text/images -->
 
-    <u> 
-        <p>This is a description underlined with the &#x2039;u&#x203A; tags of the below divs forming the shape of a koala: </p> 
+    <u>
+        <p>This is a description underlined with the &#x2039;u&#x203A; tags of the below divs forming the shape of a koala: </p>
     </u>
-    <em> 
-        <p> This is an italicized paragraph using the &lsaquo;em&rsaquo; tags </p> 
+    <em>
+        <p> This is an italicized paragraph using the &lsaquo;em&rsaquo; tags </p>
     </em>
     <div id="koalaDiv" >
     <div class="koala" >
@@ -745,44 +745,44 @@
       </div>
     </div>
     </div>
-    
-    <div style="background-color: lightcoral"> 
+
+    <div style="background-color: lightcoral">
       <p style="line-height: 1px"> This is a paragraph with line height 1px.</p>
     </div>
-      
-    <div style="background-color: yellow"> 
+
+    <div style="background-color: yellow">
       <p style="line-height: 12px"> This is a paragraph with line height 12px.</p>
     </div>
- 
-    <div style="background-color: red"> 
+
+    <div style="background-color: red">
       <p style="line-height: 24px"> This is a paragraph with line height 24px.</p>
     </div>
-      
-    <div style="background-color: blue"> 
+
+    <div style="background-color: blue">
       <p style="line-height: 48px"> This is a paragraph with line height 48px.</p>
     </div>
-      
-    <div style="background-color: green"> 
+
+    <div style="background-color: green">
       <p style="line-height: 60px"> This is a paragraph with line height 60px.</p>
     </div>
-      
-    <div style="background-color: aqua"> 
+
+    <div style="background-color: aqua">
       <p style="line-height: 72px"> This is a paragraph with line height 72px.</p>
     </div>
-      
-    <div style="background-color: mediumpurple"> 
+
+    <div style="background-color: mediumpurple">
       <p style="line-height: 84px"> This is a paragraph with line height 84px.</p>
     </div>
-      
-    
-    
-    
 
-  
-      
+
+
+
+
+
+
     <div class="hex-colors">
-        
-      
+
+
       <p style="color:#F00;">Red CSS Values: #F00, #FF0000, rgb(255, 0, 0) </p>
       <br/>
       <p style="color:#FF0">Yellow CSS Values: #FF0, #FFFF00, rgb(255, 255, 0)  </p>
@@ -795,7 +795,7 @@
       <br/>
       <p style="color:#FF00FF">Fuchsia CSS Values: #F0F, #FF00FF, rgb(255, 0, 255) ></p>
 
-    
+
       <br/>
       <br/>
       <p>There are over 16 million color combinations with hex notation #_ _ _ _ _ _</p>
@@ -805,45 +805,45 @@
       <p>There are 256 possible values (0-255) for each of the three slots in rgb notation (ie. rgb(255,255,255) is the highest value which is white). </p>
       <br/>
       <p>The colored text above overrides the white text since inline style attributes have higher priority vs. class style attributes</p>
-        
+
       <p style="color: rgba(255, 0 ,0 , 1)"> This is fully opaque for red: rgb(255, 255, 255,1) (normal, same as above)</p>
-        
+
       <p style="color: rgba(255, 0 ,0 , .5)"> This is half opaque for red: rgb(255, 255, 255,0.5) </p>
-        
+
       <p style="color: rgba(255, 0 ,0 , 0);background-color: blue"> This is clear for red: rgb(255, 255, 255,0) </p>
-        
+
       <p>Highlight the above blue line and you'll see the text's alpha/level of opacity. </p>
       <p>(This text doesn't show on a white or black background but I put in blue to make it more obvious you have to highlight it to see it) </p>
-        
-      
-     
+
+
+
       <br/>
       <br/>
-        
-      <p>Primary colors are as follows: 
-        <span style="color:red">red</span>, 
-        <span style="color:green">green</span>, 
-        <span style="color:blue">blue</span> 
+
+      <p>Primary colors are as follows:
+        <span style="color:red">red</span>,
+        <span style="color:green">green</span>,
+        <span style="color:blue">blue</span>
       </p>
-    
-      <p>Secondary colors are as follows: 
-        <span style="color:yellow">yellow</span>, 
-        <span style="color:cyan">cyan</span>, 
-        <span style="color:magenta">magenta</span> 
+
+      <p>Secondary colors are as follows:
+        <span style="color:yellow">yellow</span>,
+        <span style="color:cyan">cyan</span>,
+        <span style="color:magenta">magenta</span>
       </p>
-        
-      <p>Tertiary colors are as follows: 
-        <span style="color:#FF7D00">orange</span>, 
-        <span style="color:rgb(255, 0, 125)">rasberry</span>, 
+
+      <p>Tertiary colors are as follows:
+        <span style="color:#FF7D00">orange</span>,
+        <span style="color:rgb(255, 0, 125)">rasberry</span>,
         <span style="color:#7D00FF">violet<span>,
-        <span style="color:rgb(0,125,255)">ocean</span>, 
-        <span style="color:#00FF7D">turquoise</span>, 
-        <span style="color:rgb(125, 255, 0)">spring green</span> 
+        <span style="color:rgb(0,125,255)">ocean</span>,
+        <span style="color:#00FF7D">turquoise</span>,
+        <span style="color:rgb(125, 255, 0)">spring green</span>
       </p>
-        
+
       <p>I applied the "span" element to the above colors which are usually used for inline elements.</p>
-            
-            
+
+
       <p>Here are the different hues using HSL notation (0-360):</p>
         <p><span style="color:hsl(0, 100%, 50%)">Red: hsl(0,100%,50%)</span></p>
         <p><span style="color:hsl(30, 100%, 50%)">Orange: hsl(30,100%,50%)</span></p>
@@ -859,8 +859,8 @@
         <p><span style="color:hsl(330, 100%, 50%)">Rasberry: hsl(330,100%,50%)</span></p>
         <p><span style="color:hsl(360, 100%, 50%)">Red (again): hsl(360,100%,50%)</span></p>
         <p><span style="color:hsl(380, 100%, 50%)">Orange (again): hsl(380,100%,50%)</span></p>
-        <br/> 
-            
+        <br/>
+
       <p>Here are the different saturation values using HSL notation (0-100%, aka gray to full color):</p>
         <p><span style="color:hsl(0, 0%, 50%)">Gray: hsl(0, 0%, 50%)</span> </p>
         <p><span style="color:hsl(0, 10%, 50%)"> hsl(0, 10%, 50%)</span></p>
@@ -873,10 +873,10 @@
         <p><span style="color:hsl(0, 80%, 50%)"> hsl(0, 80%, 50%)</span></p>
         <p><span style="color:hsl(0, 90%, 50%)"> hsl(0, 90%, 50%)</span></p>
         <p><span style="color:hsl(0, 100%, 50%)">Red: hsl(0, 100%, 50%)</span></p>
-        <br/> 
-            
+        <br/>
+
       <p>Here are the different Lightness values using HSL notation (0-50%, aka black to full color and 50% to 100%, aka white to full color):</p>
-        <p><span style="color:hsl(0, 100%, 0%)">Black: hsl(0, 100%, 0%)</span> 
+        <p><span style="color:hsl(0, 100%, 0%)">Black: hsl(0, 100%, 0%)</span>
            <span style="color: hsl(0%, 100%, 100%)">(0% lightness not shown)</span></p>
         <p><span style="color:hsl(0, 100%, 10%)">hsl(0, 100%, 10%)</span></p>
         <p><span style="color:hsl(0, 100%, 20%)">hsl(0, 100%, 20%)</span></p>
@@ -888,23 +888,23 @@
         <p><span style="color:hsl(0, 100%, 80%)">hsl(0, 100%, 80%)</span></p>
         <p><span style="color:hsl(0, 100%, 90%)">hsl(0, 100%, 90%)</span></p>
         <p><span style="color:hsl(0, 100%, 100%)">White: hsl(0, 100%, 100%)</span></p>
-        <br/> 
+        <br/>
     </div>
-          
+
     <p style="background: linear-gradient(-45deg, blue, aquamarine)"> This paragraph has a background that uses a color transition, a.k.a a gradient.</p>
-        
+
     <p style="background: linear-gradient(-45deg, blue 300px, aquamarine 300px)"> This paragraph has a background that uses a gradient where the colors do not blend.</p>
-    
+
     <p style="height: 400px; background: repeating-linear-gradient(45deg, blue 250px, aquamarine 300px)"> This paragraph has a background that uses a gradient where the colors do not blend.</p>
-        
+
     <p style="background: blue; width: 200px; height: 200px; transform: skewX(10deg)">This is a box skewed 10 degrees counter-clockwise towards the x-axis.</p>
 
     <p style="background: green; width: 200px; height: 200px; transform: skewY(10deg)">This is a box skewed 10 degrees clockwise towards the y-axis.</p>
-        
+
     <p style="background: pink; width: 400px; height: 200px; box-shadow: 10px 10px 10px 10px hotpink"> This uses a box-shadow property (ie. box-shadow: 10px 10px 10px 10px; where each of the 10 px stands for offset-x, offset-y, blur-radius, and spread-radius).</p>
 
-    
-        
+
+
     <code> Computer code (ie. java) should go between the "code" tags.</code>
     <br/>
     <br/>
@@ -913,9 +913,9 @@
 
     <br/>
 
-    <p style="display: inline"> This is one paragraph with display:inline as a property.</p> 
+    <p style="display: inline"> This is one paragraph with display:inline as a property.</p>
     <p style="display: inline"> This is another paragrpah with display:inline to be right next to the previous element</p>
-      
+
     <p> Here is a meter (used by the &#8249;meter&#8250; tags):</p>
     <meter min="0" max="100" value="7" >
     This is a meter tag.
@@ -929,12 +929,12 @@
       <p class="pxFont"> <mark>10px font</mark> </p>
       <p style="font-size:20px"> <mark>20px font </mark> </p>
       <p style="font-size:30px"> <mark>30px font </mark> </p>
-      
-        
+
+
       <br/>
       <p> Below are different font-weights: </p>
       <br/>
-        
+
       <p style="font-weight: 0"> 30px with 0 font-weight (same as normal)</p>
       <p style="font-weight: 100"> 30px with 100 font-weight </p>
       <p style="font-weight: 200"> 30px with 200 font-weight</p>
@@ -1001,6 +1001,8 @@
       </address>
     </article>
     <!--articles can have blog posts, forums, news stories, and comments -->
+
+   <del> This is deleted text with the "del" tags. </del>
 
     <div tabindex="1">
       <p> If no similarities exist between information (ie. book described by "article" and chapters by "section") then div is applied </p>
@@ -1083,36 +1085,36 @@
         <input type="date" id="dateId" name="dateName"/>
       </label>
 
-        
+
       <br/>
       Here is an "input" element that allows the user to choose from a datalist of colors:
-      <input list="colors"> 
-        <datalist id="colors">  
+      <input list="colors">
+        <datalist id="colors">
             <option value="red">Red</option>
             <option value="green">Green</option>
             <option value="blue">Blue</option>
         </datalist>
       <input type="submit">
     </form>
-        
+
     <br/>
     <p> This is a paragraph describing the "select" tags. </p>
     <p> The "select" tags uses the "optgroup" and "option" tags for a drop-down menu to choose from. </p>
-    
+
     <select>
-      <optgroup label="OptGroup1 (labelName)"> 
+      <optgroup label="OptGroup1 (labelName)">
         <option value="option1.1 (valueName)"> option1.1 (valueName) </option>
         <option value="option1.2 (valueName)"> option1.2 (valueName) </option>
         <option value="option1.3 (valueName)"> option1.3 (valueName) </option>
       </optgroup>
-          
-      <optgroup label="OptGroup2 (labelName)"> 
+
+      <optgroup label="OptGroup2 (labelName)">
         <option value="option2.1 (valueName)"> option2.1 (valueName) </option>
         <option value="option2.2 (valueName)"> option2.2 (valueName) </option>
         <option value="option2.3 (valueName)"> option2.3 (valueName) </option>
       </optgroup>
     </select>
-        
+
     <br/>
     <br/>
     <br/>
