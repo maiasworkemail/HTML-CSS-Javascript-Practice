@@ -50,3 +50,10 @@ console.log("additionVar", additionVar);
 console.log("subtractionVar", subtractionVar);
 console.log("multiplicationVar", multiplicationVar);
 console.log("divisionVar", divisionVar);
+
+var counter = 0; 
+while(counter < 10)
+{
+  console.log(counter); 
+  counter++; 
+}
