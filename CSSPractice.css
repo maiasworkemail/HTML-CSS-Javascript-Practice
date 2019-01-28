@@ -8,6 +8,41 @@ h1 {
         --koala-skin: darkturquoise;
       }
 
+.grid-container{
+  background-color: darkgray;
+  height: 200px;
+  width: 200px; 
+    
+  display: grid;
+}
+.grid-item1{
+  background-color: pink;
+  height: 40px;
+  width: 40px; 
+  margin:5px;
+    
+}
+.grid-item2{
+  background-color: skyblue;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+.grid-item3{
+  background-color: greenyellow;
+  height: 40px;
+  width: 40px;  
+  margin: 5px;
+}
+.grid-item4{
+  background-color: orange;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+    
+ 
+}
+
       .fixedPosition{
          background-color: aqua;
 
