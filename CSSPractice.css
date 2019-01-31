@@ -16,6 +16,15 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 50px);
 }
+
+.grid-container2-auto-fill{
+  background-color: darkgray;
+  height: 200px;
+  width: 200px; 
+    
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50px);
+}
 .grid-item1{
   background-color: pink;
   height: 40px;
