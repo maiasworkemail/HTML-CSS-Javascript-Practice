@@ -54,6 +54,16 @@ h1 {
   
 }
 
+.grid-container5-align-self{
+  background-color: darkgray;
+  height: 200px;
+  width: 400px; 
+    
+  display: grid;
+  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
 
 
 .grid-item1{
@@ -130,6 +140,28 @@ h1 {
   margin: 5px;
     
   justify-self: end;
+}
+
+.grid-item1-align-self{
+  background-color: pink;
+  margin: 5px;
+  align-self: start ;
+    
+  
+}
+.grid-item2-align-self{
+  background-color: skyblue;
+  margin: 5px; 
+  align-self: center;
+  
+    
+}
+.grid-item3-align-self{
+  background-color: greenyellow;
+  margin: 5px;
+  align-self: end;
+    
+
 }
 
 
