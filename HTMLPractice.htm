@@ -281,6 +281,17 @@
         <path stroke-dasharray="5, 10, 15" stroke-width="4" stroke="gold" d="M5 10 l215 0"/>
       </g>
     </svg>
+      
+      
+    <p> Here is an &lt;svg &gt; element using the &lt;defs&gt;, &lt;filter&gt;, and &lt;feGaussianBlur&gt; elements to create a blur:</p>
+    <svg width="100px" height="100px">
+      <defs>
+        <filter id="idAttribute" x="0" y="0">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+        </filter>
+      </defs>
+      <rect width="80" height="80" stroke="black" stroke-width="3" fill="pink" filter="url(#idAttribute)"/>
+    </svg>
     
     <p>Here is a &lt;canvas&gt; element: </p>
     <canvas id="firstCanvas" width="100px" height="100px" style="border: 1px blue solid" autofocus="autofocus"> </canvas>
