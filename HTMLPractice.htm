@@ -297,11 +297,24 @@
     <svg width="100px" height="100px">
       <defs>
         <filter id="idAttribute2" x="0" y="0" width="200%" height="200%">
-            <feOffset result="f-offOuiit" in="SourceGraphic" dx="10" dy="20"/>
+            <feOffset result="f-offOut" in="SourceGraphic" dx="10" dy="20"/>
             <feBlend in="SourceGraphic" in2="f-offOut" mode="normal"/>
         </filter>
       </defs>
       <rect width="80" height="80" stroke="black" stroke-width="3" fill="pink" filter="url(#idAttribute2)"/>
+    </svg>
+      
+    <p> Here is an &lt;svg &gt; element using the &lt;defs&gt;, &lt;filter&gt;, &lt;feOffset&gt;, &lt;feBlend&gt;, and &lt;feGaussianBlur&gt; elements to create a blurred offset image:</p>
+    <svg width="200" height="100">
+      <defs>
+        <filter id="f1" x="0" y="0" width="200%" height="300%">
+            <feOffset result="offset" in="SourceGraphic" dx="30" dy="10"/>
+            <feGaussianBlur result="blurResult" in="offset" stdDeviation="5"/>
+            <feBlend in="SourceGraphic" in2="blurResult" mode="normal"/>
+        </filter>
+      </defs>
+      <rect width="80" height="80" stroke="black" stroke-width="3" fill="pink" filter="url(#f1)"/>
+      Sorry, this browser doesn't support this kind of &lt;svg &gt;
     </svg>
     
     <p>Here is a &lt;canvas&gt; element: </p>
