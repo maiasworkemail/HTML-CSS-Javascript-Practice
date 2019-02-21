@@ -292,6 +292,17 @@
       </defs>
       <rect width="80" height="80" stroke="black" stroke-width="3" fill="pink" filter="url(#idAttribute)"/>
     </svg>
+      
+    <p> Here is an &lt;svg &gt; element using the &lt;defs&gt;, &lt;filter&gt;, &lt;feOffset&gt; and &lt;feBlend&gt; elements to create a drop shadow effect:</p>
+    <svg width="100px" height="100px">
+      <defs>
+        <filter id="idAttribute2" x="0" y="0" width="200%" height="200%">
+            <feOffset result="f-offOuiit" in="SourceGraphic" dx="10" dy="20"/>
+            <feBlend in="SourceGraphic" in2="f-offOut" mode="normal"/>
+        </filter>
+      </defs>
+      <rect width="80" height="80" stroke="black" stroke-width="3" fill="pink" filter="url(#idAttribute2)"/>
+    </svg>
     
     <p>Here is a &lt;canvas&gt; element: </p>
     <canvas id="firstCanvas" width="100px" height="100px" style="border: 1px blue solid" autofocus="autofocus"> </canvas>
