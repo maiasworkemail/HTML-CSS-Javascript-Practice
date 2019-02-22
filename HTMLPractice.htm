@@ -316,6 +316,18 @@
       <rect width="80" height="80" stroke="black" stroke-width="3" fill="pink" filter="url(#f1)"/>
       Sorry, this browser doesn't support this kind of &lt;svg &gt;
     </svg>
+      
+    <p> Here is an &lt;svg &gt; element using the &lt;defs&gt;, &lt;linear&gt;, and &lt;stop&gt; elements to create a blurred offset image:</p>
+    <svg width="200" height="100">
+      <defs>
+        <linearGradient id="gridID" x1="0%" y1="0%" x2="20%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(0,0,255); stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:rgb(255,0,255); stop-opacity:.9"/>
+        </linearGradient>
+      </defs>
+      <rect width="80" height="80" stroke="black" stroke-width="3" fill="url(#gridID)"/>
+      Sorry, this browser doesn't support this kind of &lt;svg &gt;
+    </svg>
     
     <p>Here is a &lt;canvas&gt; element: </p>
     <canvas id="firstCanvas" width="100px" height="100px" style="border: 1px blue solid" autofocus="autofocus"> </canvas>
