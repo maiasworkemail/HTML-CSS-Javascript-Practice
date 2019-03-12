@@ -17,6 +17,7 @@ h1 {
     top: 0px; 
     background-color: blue; 
     color: white; 
+    z-index: 500;
 }
 .homeButton:hover {
   background-color: red;
