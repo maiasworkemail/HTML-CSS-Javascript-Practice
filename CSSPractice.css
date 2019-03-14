@@ -22,6 +22,9 @@ h1 {
 .homeButton:hover {
   background-color: red;
 }
+.homeButton:active {
+  background-color: black;
+}
 
 .grid-container{
   background-color: darkgray;
