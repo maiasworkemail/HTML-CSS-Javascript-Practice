@@ -719,6 +719,9 @@ h1 {
 .upperCaseRoman{
   list-style-type: upper-roman; 
 }
+.lowerCaseRoman{
+  list-style-type: lower-roman; 
+}
 .upperCaseAlpha{
   list-style-type: upper-alpha; 
 }
