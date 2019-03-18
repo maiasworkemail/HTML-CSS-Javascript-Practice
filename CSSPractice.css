@@ -722,6 +722,9 @@ h1 {
 .upperCaseAlpha{
   list-style-type: upper-alpha; 
 }
+.lowerCaseAlpha{
+  list-style-type: lower-alpha; 
+}
 
       #asd{
         background-color: aqua;
