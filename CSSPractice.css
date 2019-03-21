@@ -50,6 +50,9 @@ h1 {
   grid-template-rows: repeat(3, 50px);
 }
 
+details > p{
+    background-color: lightgray;
+}
 
 
 .grid-container3-grid-areas{
