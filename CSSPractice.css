@@ -1,750 +1,650 @@
-
-
-
-
-
-
-:root{
-        --koala-skin: darkturquoise;
-      }
-
-.htmlImg{
-    width: 100px; 
-    height: 100px; 
+:root {
+  --koala-skin: darkturquoise;
 }
+
+.htmlImg {
+  width: 100px; 
+  height: 100px; 
+}
+
 h1 {
   color: pink;
 }
-.homeButton{
-    position: fixed; 
-    left: 0px; 
-    top: 0px; 
-    background-color: blue; 
-    color: white; 
-    z-index: 500;
+
+.homeButton {
+  position: fixed; 
+  left: 0px; 
+  top: 0px; 
+  background-color: blue; 
+  color: white; 
+  z-index: 500;
 }
+
 .homeButton:hover {
   background-color: red;
 }
+
 .homeButton:active {
   background-color: black;
 }
 
-.grid-container{
+.grid-container {
   background-color: darkgray;
   height: 200px;
   width: 200px; 
-    
   display: grid;
   grid-template-columns: repeat(3, 50px);
   grid-template-rows: repeat(3, 50px);
 }
 
-.grid-container2-auto-fill{
+.grid-container2-auto-fill {
   background-color: darkgray;
   height: 200px;
   width: 200px; 
-    
   display: grid;
   grid-template-columns: repeat(auto-fill, 50px);
   grid-template-rows: repeat(3, 50px);
 }
 
-details > p{
-    background-color: lightgray;
+details > p {
+  background-color: lightgray;
 }
 
-
-.grid-container3-grid-areas{
+.grid-container3-grid-areas {
   background-color: darkgray;
   height: 200px;
   width: 200px; 
-    
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: 
-      "head head head"
-      "middleArea middleArea ."
-      "foot foot foot";
-      
+    "head head head"
+    "middleArea middleArea ."
+    "foot foot foot";   
 }
 
-.grid-container4-justify-self{
+.grid-container4-justify-self {
   background-color: darkgray;
   height: 200px;
-  width: 200px; 
-    
+  width: 200px;     
   display: grid;
-  
 }
 
-.grid-container5-align-self{
+.grid-container5-align-self {
   background-color: darkgray;
   height: 200px;
-  width: 400px; 
-    
+  width: 400px;     
   display: grid;
-  
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
 
-
-.grid-item1{
+.grid-item1 {
   background-color: pink;
   height: 40px;
   width: 40px; 
-  margin:5px;
-
-  
+  margin:5px; 
 }
-.grid-item2{
+
+.grid-item2 {
   background-color: skyblue;
   height: 40px;
   width: 40px;
-  margin: 5px; 
-
-    
+  margin: 5px;  
 }
-.grid-item3{
+
+.grid-item3 {
   background-color: greenyellow;
   height: 40px;
   width: 40px;  
   margin: 5px;
-    
-
 }
-.grid-item4{
+
+.grid-item4 {
   background-color: orange;
   height: 40px;
   width: 40px;
   margin: 5px;
-    
-  
 }
 
-.grid-area-item1{
+.grid-area-item1 {
   background-color: pink;
   margin:5px;
-
   grid-area: head;
 }
 
-.grid-area-item2{
+.grid-area-item2 {
   background-color: skyblue;
   margin: 5px; 
-
   grid-area: middleArea; 
 }
-.grid-area-item3{
+
+.grid-area-item3 {
   background-color: greenyellow;
   margin: 5px;
-    
   grid-area: foot;
 }
 
-
-.grid-item1-justify-self{
+.grid-item1-justify-self {
   background-color: pink;
-   
   margin:5px;
-
   justify-self: start;
 }
-.grid-item2-justify-self{
+
+.grid-item2-justify-self {
   background-color: skyblue;
-  
   margin: 5px; 
-    
   justify-self: center; 
 }
-.grid-item3-justify-self{
+
+.grid-item3-justify-self {
   background-color: greenyellow;
-    
   margin: 5px;
-    
   justify-self: end;
 }
 
-.grid-item1-align-self{
+.grid-item1-align-self {
   background-color: pink;
   margin: 5px;
   align-self: start ;
-    
-  
 }
-.grid-item2-align-self{
+
+.grid-item2-align-self {
   background-color: skyblue;
   margin: 5px; 
   align-self: center;
-  
-    
 }
-.grid-item3-align-self{
+
+.grid-item3-align-self {
   background-color: greenyellow;
   margin: 5px;
   align-self: end;
-    
-
 }
 
-
-      .fixedPosition{
-         background-color: aqua;
-
-         position:fixed;
-         top:0px;
-         right: 0px;"
-      }
-
-      .fixedPosition:hover{
-         background-color: red;
-      }
-
-      .koala{
-
-        position: relative;
-        height: 500px;
-        width: 500px;
-
-        left: 200px;
-
-      }
-
-      .koalaHead{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        background: var(--koala-skin, black);
-
-        border-radius: 50%;
-        top: 100px;
-
-      }
-
-      .koalaEarLeft{
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        background-color: green;
-
-        top: -25px;
-        left: -25px;
-
-        border-radius: 20px 10px 20px 10px;
-      }
-
-      .koalaEarRight{
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        background-color: green;
-
-        top: -25px;
-        left: 75px;
-
-        border-radius: 10px 20px 10px 20px;
-      }
-
-      .koalaEyeLeft{
-        position: absolute;
-        height: 10px;
-        width: 10px;
-        background-color: black;
-
-        top: 40px;
-        left: 30px;
-
-        border-radius: 50%;
-      }
-
-      .koalaEyeRight{
-        position: absolute;
-        height: 10px;
-        width: 10px;
-        background-color: black;
-
-        top: 40px;
-        left: 60px;
-
-        border-radius: 50%;
-      }
-
-      .koalaNose{
-        position: absolute;
-        height: 30px;
-        width: 20px;
-
-        background-color: black;
-
-        top: 50px;
-        left: 40px;
-
-        border-radius: 30px;
-      }
-
-      .koalaMouth{
-        position: absolute;
-        height: 2px;
-        width: 10px;
-
-        background-color: black;
-
-        top: 90px;
-        left: 40px;
-
-
-      }
-      .koalaBody{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        background: red;
-
-        border-radius: 40%;
-        top: 200px;
-
-      }
-
-      .koalaArmLeft
-      {
-        background-color: black;
-        background-color: var(--koala-skin, black);
-
-        left: -30px;
-        top: 5px;
-
-        height: 50px;
-        width: 50px;
-
-        position: absolute;
-        z-index: -1;
-
-        border-radius: 50px 10px 50px 10px;
-
-        animation-name: armMove;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-      }
-
-      .koalaArmRight
-      {
-        background-color: aqua;
-
-        left: 80px;
-        top: 5px;
-
-        height: 50px;
-        width: 50px;
-
-        position: absolute;
-        z-index: -1;
-
-        border-radius: 10px 50px 10px 50px;
-      }
-
-      .koalaLegLeft
-      {
-        background-color: black;
-        background-color: var(--koala-skin, black);
-
-        left: -30px;
-        top: 80px;
-
-        height: 50px;
-        width: 50px;
-
-        position: absolute;
-        z-index: -1;
-
-        border-radius: 60px 10px 60px 10px;
-      }
-
-      .koalaLegRight
-      {
-        background-color: aqua;
-
-        left: 80px;
-        top: 80px;
-
-        height: 50px;
-        width: 50px;
-
-        position: absolute;
-        z-index: -1;
-
-        border-radius: 10px 60px 10px 60px;
-
-        animation-name: color-change;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
-      }
-
-      @keyframes color-change{
-        10%
-        {
-          background-color:  blue
-        }
-        20%
-        {
-          background-color: yellow;
-        }
-        30%
-        {
-          background-color: green;
-        }
-
-        50%{
-          opacity: .1;
-        }
-        }
-
-
-
-      @keyframes armMove{
-          10%{
-              transform: rotate(50deg);
-          }
-          20%{
-              transform: rotate(0deg);
-          }
-      }
-
-      .ballArea{
-        height: 400px;
-        width: 390px;
-        background-color: springgreen;
-        position: relative;
-      }
-
-      .ball1{
-        height: 30px;
-        width: 30px;
-
-        left: 30px;
-        background-color: blue;
-        position: absolute;
-
-        border-radius: 50%;
-
-        animation-name: ball1;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-      }
-
-      .ball2{
-        height: 30px;
-        width: 30px;
-
-        left: 90px;
-        background-color: red;
-        position: absolute;
-
-        border-radius: 50%;
-
-        animation-name: ball2;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease;
-      }
-      .ball3{
-        height: 30px;
-        width: 30px;
-
-        left: 150px;
-        background-color: purple;
-        position: absolute;
-
-        border-radius: 50%;
-
-        animation-name: ball3;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in;
-      }
-      .ball4{
-        height: 30px;
-        width: 30px;
-
-        left: 210px;
-        background-color: blue;
-        position: absolute;
-
-        border-radius: 50%;
-
-        animation-name: ball4;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-out;
-      }
-      .ball5{
-        height: 30px;
-        width: 30px;
-
-        left: 270px;
-        background-color: red;
-        position: absolute;
-
-        border-radius: 50%;
-
-        animation-name: ball5;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-      }
-      .ball6{
-        height: 30px;
-        width: 30px;
-
-        left: 330px;
-        background-color: purple;
-        position: absolute;
-
-        border-radius: 50%;
-        animation-name: ball6;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: cubic-bezier(.25, .25, .75, .75);
-      }
-
-      @keyframes ball1{
-          0%{
-            top: 0px;
-          }
-          50%{
-            top: 300px;
-          }
-          100%{
-            top: 0px;
-          }
-      }
-
-      @keyframes ball2{
-          0%{
-            top: 0px;
-          }
-          50%{
-            top: 300px;
-          }
-          100%{
-            top: 0px;
-          }
-      }
-
-      @keyframes ball3{
-          0%{
-            top: 0px;
-          }
-          50%{
-            top: 300px;
-          }
-          100%{
-            top: 0px;
-          }
-      }
-
-      @keyframes ball4{
-          0%{
-            top: 0px;
-          }
-          50%{
-            top: 300px;
-          }
-          100%{
-            top: 0px;
-          }
-      }
-
-      @keyframes ball5{
-          0%{
-            top: 0px;
-          }
-          50%{
-            top: 300px;
-          }
-          100%{
-            top: 0px;
-          }
-      }
-
-      @keyframes ball6{
-          0%{
-            top: 0px;
-          }
-          50%{
-            top: 300px;
-          }
-          100%{
-            top: 0px;
-          }
-      }
-
-      table, th, td{
-        border: 1px solid black;
-        border-collapse: collapse;
-        height: 100px;
-        vertical-align: bottom; 
-      }
-
-      .hex-colors{
-        background-color:#000;
-        border-style: dashed;
-        border-width: 2px;
-        border-color:#999;
-        color: rgb(255, 255, 255);
-
-      }
-
-      .firstClasseWithFieldSet{
-        color: blue;
-      }
-      .purpleText{
-        color: purple;
-
-      }
-      p {
-        font-size: 25px;
-      }
-      h1 {
-        font-family: 'Unlock', monospace, serif;
-        width: 40vw;
-        margin: -15px;
-      }
-
-      .pinkBorder{
-        border-color: pink;
-        border-width: 10px;
-        border-style: dotted;
-        border-radius: 20px;
-
-
-        background-color: purple;
-      }
-
-      nav{
-        padding: 10px 20px 20px 10px;
-      }
-
-      a{
-
-        color: lawngreen;
-
-      }
-
-      .fontSizes{
-        border-style: solid;
-        border-width: 5px;
-      }
-      .remFont
-      {
-        font-size: 10rem;
-      }
-      .emFont{
-        font-size: 10em;
-      }
-      .pxFont{
-        font-size: 10px;
-      }
-
-
-      .boxGroup{
-        display: flex;
-        flex-direction: row-reverse;
-        flex-flow: wrap;
-        height: 100px;
-
-        background-color: aquamarine;
-        justify-content: center;
-
-      }
-
-      .boxGroup2{
-        align-items: center;
-
-      }
-
-
-      .tripleFlexGroup{
-        display: flex;
-        height: 300px;
-
-
-      }
-      .tripleFlex1{
-        background-color: blueviolet;
-        flex: 1 1 300px;
-        order: 2;
-      }
-
-      .tripleFlex2{
-        background-color: orangered;
-        flex: 2 2 300px;
-        order: 1;
-
-      }
-
-      .shrinkGroup{
-        display: flex;
-
-      }
-      .shrink1{
-        background-color: hotpink;
-        flex-shrink: 1;
-        width: 100%;
-        height: 200px;
-      }
-
-      .shrink2{
-        background-color: green;
-        flex-shrink: 2;
-        width: 100%;
-        height: 200px;
-
-      }
-
-      .redBox{
-        background-color: red;
-        padding: 10px;
-      }
-
-      .blueBox{
-        background-color: blue;
-        margin: 10px;
-      }
-
-      img{
-        display: block;
-        max-width: 100%;
-
-      }
-
-.upperCaseRoman{
+.fixedPosition {
+  background-color: aqua;
+  position:fixed;
+  top:0px;
+  right: 0px;
+}
+
+.fixedPosition:hover {
+  background-color: red;
+}
+
+.koala {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  left: 200px;
+}
+
+.koalaHead {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: var(--koala-skin, black);
+  border-radius: 50%;
+  top: 100px;
+}
+
+.koalaEarLeft {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  top: -25px;
+  left: -25px;
+  border-radius: 20px 10px 20px 10px;
+}
+
+.koalaEarRight {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  top: -25px;
+  left: 75px;
+  border-radius: 10px 20px 10px 20px;
+}
+
+.koalaEyeLeft {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  top: 40px;
+  left: 30px;
+  border-radius: 50%;
+}
+
+.koalaEyeRight {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  top: 40px;
+  left: 60px;
+  border-radius: 50%;
+}
+
+.koalaNose {
+  position: absolute;
+  height: 30px;
+  width: 20px;
+  background-color: black;
+  top: 50px;
+  left: 40px;
+  border-radius: 30px;
+}
+
+.koalaMouth {
+  position: absolute;
+  height: 2px;
+  width: 10px;
+  background-color: black;
+  top: 90px;
+  left: 40px;
+}
+
+.koalaBody {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: red;
+  border-radius: 40%;
+  top: 200px;
+}
+
+.koalaArmLeft {
+  background-color: black;
+  background-color: var(--koala-skin, black);
+  left: -30px;
+  top: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50px 10px 50px 10px;
+  animation-name: armMove;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.koalaArmRight {
+  background-color: aqua;
+  left: 80px;
+  top: 5px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px 50px 10px 50px;
+}
+
+.koalaLegLeft {
+  background-color: black;
+  background-color: var(--koala-skin, black);
+  left: -30px;
+  top: 80px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 60px 10px 60px 10px;
+}
+
+.koalaLegRight {
+  background-color: aqua;
+  left: 80px;
+  top: 80px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px 60px 10px 60px;
+  animation-name: color-change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+  10% {
+    background-color:  blue
+  }
+  20% {
+    background-color: yellow;
+  }
+  30% {
+    background-color: green;
+  }
+  50% {
+    opacity: .1;
+  }
+}
+
+@keyframes armMove {
+  10% {
+    transform: rotate(50deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+}
+
+.ballArea {
+  height: 400px;
+  width: 390px;
+  background-color: springgreen;
+  position: relative;
+}
+
+.ball1 {
+  height: 30px;
+  width: 30px;
+  left: 30px;
+  background-color: blue;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.ball2 {
+  height: 30px;
+  width: 30px;
+  left: 90px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.ball3 { 
+  height: 30px;
+  width: 30px;
+  left: 150px;
+  background-color: purple;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+.ball4 {
+  height: 30px;
+  width: 30px;
+  left: 210px;
+  background-color: blue;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+.ball5 {
+  height: 30px;
+  width: 30px;
+  left: 270px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.ball6 {
+  height: 30px;
+  width: 30px;
+  left: 330px;
+  background-color: purple;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.25, .25, .75, .75);
+}
+
+@keyframes ball1 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes ball2 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes ball3 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes ball4 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes ball5 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes ball6 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 100px;
+  vertical-align: bottom; 
+}
+
+.hex-colors {
+  background-color:#000;
+  border-style: dashed;
+  border-width: 2px;
+  border-color:#999;
+  color: rgb(255, 255, 255);
+}
+
+.firstClasseWithFieldSet {
+  color: blue;
+}
+
+.purpleText {
+  color: purple;
+}
+
+p {
+  font-size: 25px;
+}
+
+h1 {
+  font-family: 'Unlock', monospace, serif;
+  width: 40vw;
+  margin: -15px;
+}
+
+.pinkBorder {
+  border-color: pink;
+  border-width: 10px;
+  border-style: dotted;
+  border-radius: 20px;
+  background-color: purple;
+}
+
+nav {
+  padding: 10px 20px 20px 10px;
+}
+
+a {
+  color: lawngreen;
+}
+
+.fontSizes {
+  border-style: solid;
+  border-width: 5px;
+}
+
+.remFont {
+  font-size: 10rem;
+}
+
+.emFont {
+  font-size: 10em;
+}
+
+.pxFont {
+  font-size: 10px;
+}
+
+.boxGroup {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-flow: wrap;
+  height: 100px;
+  background-color: aquamarine;
+  justify-content: center;
+}
+
+.boxGroup2 {
+  align-items: center;
+}
+
+.tripleFlexGroup {
+  display: flex;
+  height: 300px;
+}
+
+.tripleFlex1 {
+  background-color: blueviolet;
+  flex: 1 1 300px;
+  order: 2;
+}
+
+.tripleFlex2 {
+  background-color: orangered;
+  flex: 2 2 300px;
+  order: 1;
+}
+
+.shrinkGroup {
+  display: flex;
+}
+
+.shrink1 {
+  background-color: hotpink;
+  flex-shrink: 1;
+  width: 100%;
+  height: 200px;
+}
+
+.shrink2 {
+  background-color: green;
+  flex-shrink: 2;
+  width: 100%;
+  height: 200px;
+}
+
+.redBox {
+  background-color: red;
+  padding: 10px;
+}
+
+.blueBox {
+  background-color: blue;
+  margin: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.upperCaseRoman {
   list-style-type: upper-roman; 
 }
-.lowerCaseRoman{
+
+.lowerCaseRoman {
   list-style-type: lower-roman; 
 }
-.upperCaseAlpha{
+
+.upperCaseAlpha {
   list-style-type: upper-alpha; 
 }
-.lowerCaseAlpha{
+
+.lowerCaseAlpha {
   list-style-type: lower-alpha; 
 }
 
-      #asd{
-        background-color: aqua;
-      }
+#asd {
+  background-color: aqua;
+}
 
-      [datetime="2018-12-09"]{
-        background-color: lawngreen;
-      }
+[datetime="2018-12-09"] {
+  background-color: lawngreen;
+}
 
-      @media(max-width: 500px)
-      {
-        p {
-          font-size: 15px;
-        }
-      }
+@media(max-width: 500px)
+{
+  p {
+    font-size: 15px;
+  }
+}
