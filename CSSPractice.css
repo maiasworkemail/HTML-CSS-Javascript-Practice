@@ -2,6 +2,10 @@
   --koala-skin: darkturquoise;
 }
 
+nav + header {
+  background-color: black;
+}
+
 .htmlImg {
   width: 100px; 
   height: 100px; 
