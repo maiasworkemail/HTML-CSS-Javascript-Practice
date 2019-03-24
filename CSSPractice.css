@@ -638,6 +638,10 @@ img {
   list-style-type: lower-alpha; 
 }
 
+time ~ p {
+  background-color: peachpuff;
+}
+
 #asd {
   background-color: aqua;
 }
