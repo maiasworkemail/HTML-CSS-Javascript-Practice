@@ -2,6 +2,10 @@
   --koala-skin: darkturquoise;
 }
 
+.videoClass::first-line {
+  color: red; 
+}
+
 nav + header {
   background-color: black;
 }
