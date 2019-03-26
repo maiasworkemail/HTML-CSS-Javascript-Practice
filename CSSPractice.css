@@ -646,6 +646,10 @@ time ~ p {
   background-color: peachpuff;
 }
 
+.firstLetterBlue::first-letter {
+  color: blue;
+}
+
 #asd {
   background-color: aqua;
 }
