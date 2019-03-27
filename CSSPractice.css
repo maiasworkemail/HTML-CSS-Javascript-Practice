@@ -11,6 +11,11 @@ h2::before {
   color: red; 
 }
 
+h3::after {
+  content: "This is text placed after any h3 headers using the ::after selector."; 
+  color: blue; 
+}
+
 nav + header {
   background-color: black;
 }
