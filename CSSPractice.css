@@ -6,6 +6,11 @@
   color: red; 
 }
 
+h2::before {
+  content: "This is content text before the h2 header"; 
+  color: red; 
+}
+
 nav + header {
   background-color: black;
 }
