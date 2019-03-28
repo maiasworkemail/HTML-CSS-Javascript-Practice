@@ -2,6 +2,10 @@
   --koala-skin: darkturquoise;
 }
 
+.firstLetterBlue::first-letter {
+  color: blue;
+}
+
 .videoClass::first-line {
   color: red; 
 }
@@ -654,10 +658,6 @@ img {
 
 time ~ p {
   background-color: peachpuff;
-}
-
-.firstLetterBlue::first-letter {
-  color: blue;
 }
 
 #asd {
