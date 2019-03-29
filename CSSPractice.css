@@ -20,6 +20,14 @@ h3::after {
   color: blue; 
 }
 
+.borderImage {
+  border: 10px solid transparent; 
+  margin: 20px;
+  padding: 20px; 
+  width: 200px;
+  border-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a3/Celtic-knot-insquare-39crossings.svg") 25% round; 
+}
+
 nav + header {
   background-color: black;
 }
