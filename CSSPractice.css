@@ -24,6 +24,21 @@ h4 {
   text-shadow: 2px 2px 5px red;
 }
 
+.noWrappingClass {
+  white-space: nowrap; 
+  background-color: aquamarine;
+}
+
+.normalWrappingClass {
+  white-space: normal;
+  background-color: aquamarine;
+}
+
+.preWrappingClass {
+  white-space: pre;
+  background-color: aquamarine;
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
