@@ -39,6 +39,34 @@ h4 {
   background-color: aquamarine;
 }
 
+.overflowScroll {
+  overflow: scroll; 
+  background: lightgreen;
+  width: 200px; 
+  height: 200px; 
+}
+
+.overflowHidden {
+  overflow: hidden; 
+  background: lightgreen;
+  width: 200px; 
+  height: 200px; 
+}
+
+.overflowAuto {
+  overflow: auto; 
+  background: lightgreen;
+  width: 200px; 
+  height: 200px; 
+}
+
+.overflowVisible {
+  overflow: visible; 
+  background: lightgreen;
+  width: 200px; 
+  height: 200px; 
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
