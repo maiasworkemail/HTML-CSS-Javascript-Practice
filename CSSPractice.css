@@ -67,6 +67,13 @@ h4 {
   height: 200px; 
 }
 
+.textOverflowClip {
+  text-overflow: clip; 
+  background: peach;
+  width: 200px; 
+  height: 200px;
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
