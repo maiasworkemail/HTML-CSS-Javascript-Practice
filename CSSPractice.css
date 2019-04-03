@@ -74,6 +74,15 @@ h4 {
   height: 200px;
 }
 
+.textOverflowEllipsis {
+  text-overflow: ellipsis; 
+  background: peach;
+  width: 800px; 
+  height: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
