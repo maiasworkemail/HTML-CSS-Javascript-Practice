@@ -102,7 +102,7 @@ h4 {
   position: absolute: 
 }
 
-#comparativeDiv1 {
+.comparativeDiv {
   top: 10px; 
   left: 5px; 
   width: 100px;
@@ -126,6 +126,21 @@ h4 {
   -moz-transform: translate(50px, 50px);
   transform: translate(50px, 50px);
 }
+
+#rotatedDiv {
+  top: -90px; 
+  left: 5px; 
+  width: 100px;
+  height: 100px; 
+  position: relative; 
+  background-color: red; 
+    
+  -ms-transform: translate(50px, 50px) rotate(20deg);
+  -webkit-transform: translate(50px, 50px) rotate(20deg);
+  -moz-transform: translate(50px, 50px) rotate(20deg);
+  transform: translate(50px, 50px) rotate(20deg);
+}
+
 
 .borderImage {
   border: 10px solid transparent; 
