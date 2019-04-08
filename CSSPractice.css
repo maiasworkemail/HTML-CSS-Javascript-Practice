@@ -95,6 +95,38 @@ h4 {
   text-transform: lowercase;
 }
 
+#twoDTransformations{
+  height: 660px;
+  width: 660px;
+  background-color: azure;
+  position: absolute: 
+}
+
+#comparativeDiv {
+  top: 10px; 
+  left: 5px; 
+  width: 100px;
+  height: 100px; 
+  position: relative; 
+  background-color: red; 
+  opacity: .5;
+  color: white; 
+}
+
+#transformDiv {
+  top: -90px; 
+  left: 5px; 
+  width: 100px;
+  height: 100px; 
+  position: relative; 
+  background-color: red; 
+    
+  -ms-transform: translate(50px, 50px);
+  -webkit-transform: translate(50px, 50px);
+  -moz-transform: translate(50px, 50px);
+  transform: translate(50px, 50px);
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
