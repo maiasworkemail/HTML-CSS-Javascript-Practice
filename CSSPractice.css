@@ -155,6 +155,31 @@ h4 {
   transform: translate(50px, 50px) scale(.5, .5);
 }
 
+.comparativeDiv2 {
+  top: -590px; 
+  left: 200px; 
+  width: 100px;
+  height: 100px; 
+  position: relative; 
+  background-color: red; 
+  opacity: .5;
+  color: white; 
+}
+
+#skewXDiv {
+  top: -690px; 
+  left: 200px; 
+  width: 100px;
+  height: 100px; 
+  position: relative; 
+  background-color: red; 
+    
+  -ms-transform: translate(50px, 50px) skewX(10deg);
+  -webkit-transform: translate(50px, 50px) skewX(10deg);
+  -moz-transform: translate(50px, 50px) skewX(10deg);
+  transform: translate(50px, 50px) skewX(10deg);
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
