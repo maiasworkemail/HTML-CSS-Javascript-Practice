@@ -222,6 +222,20 @@ h4 {
   transform: translate(50px, 50px) rotateX(60deg);
 }
 
+#rotateY {
+  top: -100px; 
+  left: 0px; 
+  width: 110px;
+  height: 110px; 
+  position: relative; 
+  background-color: red; 
+    
+  -ms-transform: translate(50px, 50px) rotateY(60deg);
+  -webkit-transform: translate(50px, 50px) rotateY(60deg);
+  -moz-transform: translate(50px, 50px) rotateY(60deg);
+  transform: translate(50px, 50px) rotateY(60deg);
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
