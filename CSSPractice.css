@@ -2,6 +2,15 @@
   --koala-skin: darkturquoise;
 }
 
+body {
+  counter-reset: sectionVariable; 
+}
+
+section::before {
+  counter-increment: sectionVariable; 
+  content: "Section " counter(sectionVariable) ": ";
+}
+
 .firstLetterBlue::first-letter {
   color: blue;
 }
