@@ -270,6 +270,7 @@ h4 {
 nav + header {
   background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v326-kul-60-connection_2.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=800&s=7a668c4d9d8da7b35d51d38199cb5839);
   background-size: 100px;
+  background-repeat: no-repeat; 
 }
 
 .htmlImg {
