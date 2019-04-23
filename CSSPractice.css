@@ -610,6 +610,16 @@ details > p {
   }
 }
 
+@keyframes colorChange {
+  from {background: pink;}
+  to {background: black;}
+}
+
+h1 {
+  animation-name: colorChange; 
+  animation-duration: 10s;
+}
+
 .ballArea {
   height: 400px;
   width: 390px;
