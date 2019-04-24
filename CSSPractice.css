@@ -281,7 +281,8 @@ nav + header {
 
 h1 {
   color: pink;
-  transition: font-size 2s;
+  transition: font-size;
+  transition-duration: 5s;
   transition-delay: 1s;
 }
 
