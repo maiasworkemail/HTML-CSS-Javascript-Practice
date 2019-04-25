@@ -283,6 +283,7 @@ h1 {
   color: pink;
   transition: font-size;
   transition-duration: 5s;
+  transition-timing-function: linear; 
   transition-delay: 1s;
 }
 
