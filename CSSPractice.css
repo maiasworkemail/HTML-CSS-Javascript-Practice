@@ -265,6 +265,7 @@ h4 {
   padding: 20px; 
   width: 200px;
   border-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a3/Celtic-knot-insquare-39crossings.svg") 25% round; 
+  filter: grayscale(100%);
 }
 
 nav + header {
