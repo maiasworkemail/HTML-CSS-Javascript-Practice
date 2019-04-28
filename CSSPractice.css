@@ -964,3 +964,10 @@ time ~ p {
 #regText:hover #tooltip{
   visibility: visible;
 }
+
+.blur {
+  -ms-filter: blur(3px); 
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px); 
+  filter: blur(3px); 
+}
