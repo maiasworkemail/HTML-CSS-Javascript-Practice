@@ -971,3 +971,10 @@ time ~ p {
   -moz-filter: blur(3px); 
   filter: blur(3px); 
 }
+
+.brightness {
+  -ms-filter: brightness(20%); 
+  -webkit-filter: brightness(20%);
+  -moz-filter: brightness(20%); 
+  filter: brightness(20%); 
+}
