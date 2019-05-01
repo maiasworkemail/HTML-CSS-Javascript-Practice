@@ -978,3 +978,10 @@ time ~ p {
   -moz-filter: brightness(20%); 
   filter: brightness(20%); 
 }
+
+.contrast {
+  -ms-filter: contrast(20%); 
+  -webkit-filter: contrast(20%);
+  -moz-filter: contrast(20%); 
+  filter: contrast(20%); 
+}
