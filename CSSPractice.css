@@ -985,3 +985,10 @@ time ~ p {
   -moz-filter: contrast(20%); 
   filter: contrast(20%); 
 }
+
+.dropShadow {
+  -ms-filter: drop-shadow(10px 10px 10px red); 
+  -webkit-filter: drop-shadow(10px 10px 10px red);
+  -moz-filter: drop-shadow(10px 10px 10px red);
+  filter: drop-shadow(10px 10px 10px red);
+}
