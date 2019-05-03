@@ -992,3 +992,12 @@ time ~ p {
   -moz-filter: drop-shadow(10px 10px 10px red);
   filter: drop-shadow(10px 10px 10px red);
 }
+
+.grayScale {
+  -ms-filter: grayscale(50%); 
+  -webkit-filter: grayscale(50%); 
+  -moz-filter: grayscale(50%); 
+  filter: grayscale(50%); 
+  
+  padding: 10px;
+}
