@@ -1001,3 +1001,10 @@ time ~ p {
   
   padding: 10px;
 }
+
+.hueRotate {
+  -ms-filter: hue-rotate(180deg); 
+  -webkit-filter: hue-rotate(180deg); 
+  -moz-filter: hue-rotate(180deg); 
+  filter: hue-rotate(180deg); 
+}
