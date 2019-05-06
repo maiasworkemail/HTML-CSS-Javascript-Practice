@@ -1015,3 +1015,10 @@ time ~ p {
   -moz-filter: saturate(0%);  
   filter: saturate(0%); 
 }
+
+.sepia {
+  -ms-filter: sepia(100%); 
+  -webkit-filter: sepia(100%);  
+  -moz-filter: sepia(100%);  
+  filter: sepia(100%); 
+}
