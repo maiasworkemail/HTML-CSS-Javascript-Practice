@@ -1022,3 +1022,18 @@ time ~ p {
   -moz-filter: sepia(100%);  
   filter: sepia(100%); 
 }
+
+#peachPictures {
+  position: relative; 
+  height: 500px; 
+  width: 500px
+}
+
+#row1PeachPictures {
+  position: absolute; 
+}
+
+#row2PeachPictures {
+  position: absolute; 
+  left: 300px;
+}
