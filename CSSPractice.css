@@ -998,8 +998,6 @@ time ~ p {
   -webkit-filter: grayscale(50%); 
   -moz-filter: grayscale(50%); 
   filter: grayscale(50%); 
-  
-  padding: 10px;
 }
 
 .hueRotate {
@@ -1032,7 +1030,7 @@ time ~ p {
 
 #peachPictures {
   position: relative; 
-  height: 500px; 
+  height: 700px; 
   width: 500px
 }
 
