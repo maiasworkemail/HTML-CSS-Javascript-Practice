@@ -2,6 +2,16 @@
   --koala-skin: darkturquoise;
 }
 
+#sidebar {
+  position: fixed; 
+  width: 100px; 
+  height: 100%; 
+  top: 0px;
+  left: 0px;
+  background: orange;
+  z-index: 1;
+}
+
 body {
   counter-reset: sectionVariable; 
 }
