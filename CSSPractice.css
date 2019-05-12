@@ -12,8 +12,14 @@
   z-index: 1;
 }
 
+#everythingButSidebar {
+  position: absolute; 
+  left: 110px;
+}
+
 body {
   counter-reset: sectionVariable; 
+  position: relative;
 }
 
 section::before {
