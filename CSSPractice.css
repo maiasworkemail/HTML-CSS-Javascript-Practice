@@ -10,6 +10,7 @@
   left: 0px;
   background: orange;
   z-index: 1;
+  overflow: scroll;
 }
 
 .sideBarSection {
