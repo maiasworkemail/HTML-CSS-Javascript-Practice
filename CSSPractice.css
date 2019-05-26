@@ -13,6 +13,16 @@
   overflow: scroll;
 }
 
+.sideBarSubtext {
+  position: absolute;
+  visibility: hidden;
+}
+
+.sideBarSection:hover .sideBarSubtext {
+  visibility: visible;
+  background: lime;
+}
+
 .sideBarSection {
   background: red; 
   border: .1px solid black;
