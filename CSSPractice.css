@@ -23,6 +23,10 @@
   background: lime;
 }
 
+.sideBarSection:hover {
+  height: 40px;
+}
+
 .sideBarSection {
   background: red; 
   border: .1px solid black;
