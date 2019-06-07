@@ -35,6 +35,7 @@
 #everythingButSidebar {
   position: absolute; 
   left: 110px;
+  width: 700px;
 }
 
 body {
