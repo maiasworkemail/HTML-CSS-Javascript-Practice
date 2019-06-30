@@ -25,6 +25,7 @@
 
 .sideBarSection:hover {
   height: 60px;
+  background-color: paleturquoise;
 }
 
 .sideBarSection {
