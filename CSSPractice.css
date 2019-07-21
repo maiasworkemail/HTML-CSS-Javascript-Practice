@@ -331,12 +331,13 @@ h1:hover {
 }
 
 .homeButton {
-  position: fixed; 
+  position: relative; 
   left: 0px; 
   top: 0px; 
   background-color: blue; 
   color: white; 
   z-index: 500;
+  width: 100%;
 }
 
 .homeButton:hover {
