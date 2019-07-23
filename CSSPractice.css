@@ -13,6 +13,14 @@
   overflow: scroll;
 }
 
+#sidebar::-webkit-scrollbar {
+  width: 12px;
+}
+
+#sidebar::-webkit-scrollbar-track {
+  background: #00AA00; 
+}
+
 .sideBarSubtext {
   position: absolute;
   visibility: hidden;
