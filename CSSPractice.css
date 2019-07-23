@@ -19,6 +19,7 @@
 
 #sidebar::-webkit-scrollbar-track {
   background: #00AA00; 
+  border-radius: 5px;
 }
 
 .sideBarSubtext {
