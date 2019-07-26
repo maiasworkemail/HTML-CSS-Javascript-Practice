@@ -23,6 +23,10 @@
   box-shadow: inset 0 0 10px #000; 
 }
 
+#sidebar::-webkit-scrollbar-thumb {
+  background: #FF0;
+}
+
 .sideBarSubtext {
   position: absolute;
   visibility: hidden;
