@@ -33,6 +33,10 @@
   background: #FE0; 
 }
 
+#sidebar::-webkit-scrollbar-button {
+  background: purple;
+}
+
 .sideBarSubtext {
   position: absolute;
   visibility: hidden;
