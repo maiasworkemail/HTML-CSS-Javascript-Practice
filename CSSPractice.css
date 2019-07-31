@@ -35,6 +35,7 @@
 
 #sidebar::-webkit-scrollbar-button {
   background: purple;
+  border-radius: 50%;
 }
 
 .sideBarSubtext {
