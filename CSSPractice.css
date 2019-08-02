@@ -1111,3 +1111,7 @@ time ~ p {
   position: absolute; 
   left: 300px;
 }
+
+span.verticalWriting {
+  writing-mode: vertical-rl; 
+}
