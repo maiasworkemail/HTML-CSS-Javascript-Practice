@@ -1115,3 +1115,9 @@ time ~ p {
 span.verticalWriting {
   writing-mode: vertical-rl; 
 }
+
+#resizeHorizontal {
+  resize: horizontal;
+  border: 3px solid;
+  overflow: auto;
+}
