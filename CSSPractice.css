@@ -1121,3 +1121,9 @@ span.verticalWriting {
   border: 3px solid;
   overflow: auto;
 }
+
+#resizeVertical {
+  resize: vertical;
+  border: 3px solid;
+  overflow: auto;
+}
