@@ -74,6 +74,16 @@ body {
   position: relative;
 }
 
+.homeButton {
+  position: relative; 
+  left: 0px; 
+  top: 0px; 
+  background-color: blue; 
+  color: white; 
+  z-index: 500;
+  width: 100%;
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -358,16 +368,6 @@ h1 {
 
 h1:hover {
   font-size: 20px; 
-}
-
-.homeButton {
-  position: relative; 
-  left: 0px; 
-  top: 0px; 
-  background-color: blue; 
-  color: white; 
-  z-index: 500;
-  width: 100%;
 }
 
 .homeButton:hover {
