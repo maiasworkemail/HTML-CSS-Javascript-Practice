@@ -2,6 +2,11 @@
   --koala-skin: darkturquoise;
 }
 
+body {
+  counter-reset: sectionVariable; 
+  position: relative;
+}
+
 #sidebar {
   position: fixed; 
   width: 120px; 
@@ -78,11 +83,6 @@
 
 .fixedPosition:hover {
   background-color: red;
-}
-
-body {
-  counter-reset: sectionVariable; 
-  position: relative;
 }
 
 .homeButton {
