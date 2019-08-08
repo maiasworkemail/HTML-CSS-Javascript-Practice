@@ -69,6 +69,17 @@
   width: 700px;
 }
 
+.fixedPosition {
+  background-color: aqua;
+  position:fixed;
+  top:0px;
+  right: 0px;
+}
+
+.fixedPosition:hover {
+  background-color: red;
+}
+
 body {
   counter-reset: sectionVariable; 
   position: relative;
@@ -509,17 +520,6 @@ details > p {
   background-color: greenyellow;
   margin: 5px;
   align-self: end;
-}
-
-.fixedPosition {
-  background-color: aqua;
-  position:fixed;
-  top:0px;
-  right: 0px;
-}
-
-.fixedPosition:hover {
-  background-color: red;
 }
 
 .koala {
