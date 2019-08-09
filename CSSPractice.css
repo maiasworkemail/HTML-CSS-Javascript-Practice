@@ -85,6 +85,14 @@ body {
   background-color: red;
 }
 
+.pinkBorder {
+  border-color: pink;
+  border-width: 10px;
+  border-style: dotted;
+  border-radius: 20px;
+  background-color: purple;
+}
+
 .homeButton {
   position: relative; 
   left: 0px; 
@@ -880,14 +888,6 @@ h1 {
   font-family: 'Unlock', monospace, serif;
   width: 40vw;
   margin: -15px;
-}
-
-.pinkBorder {
-  border-color: pink;
-  border-width: 10px;
-  border-style: dotted;
-  border-radius: 20px;
-  background-color: purple;
 }
 
 nav {
