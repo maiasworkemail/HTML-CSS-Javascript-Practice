@@ -7,6 +7,16 @@ body {
   position: relative;
 }
 
+.homeButton {
+  position: relative; 
+  left: 0px; 
+  top: 0px; 
+  background-color: blue; 
+  color: white; 
+  z-index: 500;
+  width: 100%;
+}
+
 #sidebar {
   position: fixed; 
   width: 120px; 
@@ -91,16 +101,6 @@ body {
   border-style: dotted;
   border-radius: 20px;
   background-color: purple;
-}
-
-.homeButton {
-  position: relative; 
-  left: 0px; 
-  top: 0px; 
-  background-color: blue; 
-  color: white; 
-  z-index: 500;
-  width: 100%;
 }
 
 .borderImage {
