@@ -112,6 +112,12 @@ body {
   filter: grayscale(100%);
 }
 
+#peachPictures {
+  position: relative; 
+  height: 1000px; 
+  width: 500px
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -1095,12 +1101,6 @@ time ~ p {
   -webkit-filter: sepia(100%);  
   -moz-filter: sepia(100%);  
   filter: sepia(100%); 
-}
-
-#peachPictures {
-  position: relative; 
-  height: 1000px; 
-  width: 500px
 }
 
 #row1PeachPictures {
