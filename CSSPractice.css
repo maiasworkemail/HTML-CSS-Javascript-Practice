@@ -118,6 +118,10 @@ body {
   width: 500px
 }
 
+#row1PeachPictures {
+  position: absolute; 
+}
+
 .videoClass::first-line {
   color: red; 
 }
@@ -1101,10 +1105,6 @@ time ~ p {
   -webkit-filter: sepia(100%);  
   -moz-filter: sepia(100%);  
   filter: sepia(100%); 
-}
-
-#row1PeachPictures {
-  position: absolute; 
 }
 
 #row2PeachPictures {
