@@ -122,6 +122,11 @@ body {
   position: absolute; 
 }
 
+#row2PeachPictures {
+  position: absolute; 
+  left: 300px;
+}
+
 .videoClass::first-line {
   color: red; 
 }
@@ -1105,11 +1110,6 @@ time ~ p {
   -webkit-filter: sepia(100%);  
   -moz-filter: sepia(100%);  
   filter: sepia(100%); 
-}
-
-#row2PeachPictures {
-  position: absolute; 
-  left: 300px;
 }
 
 span.verticalWriting {
