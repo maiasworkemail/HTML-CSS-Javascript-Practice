@@ -131,6 +131,13 @@ body {
   color: red; 
 }
 
+.ballArea {
+  height: 400px;
+  width: 390px;
+  background-color: springgreen;
+  position: relative;
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -713,13 +720,6 @@ details > p {
 h1 {
   animation-name: colorChange; 
   animation-duration: 10s;
-}
-
-.ballArea {
-  height: 400px;
-  width: 390px;
-  background-color: springgreen;
-  position: relative;
 }
 
 .ball1 {
