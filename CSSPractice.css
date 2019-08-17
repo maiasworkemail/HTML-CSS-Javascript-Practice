@@ -151,6 +151,19 @@ body {
   animation-timing-function: linear;
 }
 
+.ball2 {
+  height: 30px;
+  width: 30px;
+  left: 90px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -733,19 +746,6 @@ details > p {
 h1 {
   animation-name: colorChange; 
   animation-duration: 10s;
-}
-
-.ball2 {
-  height: 30px;
-  width: 30px;
-  left: 90px;
-  background-color: red;
-  position: absolute;
-  border-radius: 50%;
-  animation-name: ball2;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
 }
 
 .ball3 { 
