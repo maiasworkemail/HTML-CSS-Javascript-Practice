@@ -103,6 +103,11 @@ body {
   background-color: purple;
 }
 
+h1 {
+  animation-name: colorChange; 
+  animation-duration: 10s;
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
@@ -741,11 +746,6 @@ details > p {
 @keyframes colorChange {
   from {background: pink;}
   to {background: black;}
-}
-
-h1 {
-  animation-name: colorChange; 
-  animation-duration: 10s;
 }
 
 .ball3 { 
