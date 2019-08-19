@@ -169,6 +169,19 @@ h1 {
   animation-timing-function: ease;
 }
 
+.ball3 { 
+  height: 30px;
+  width: 30px;
+  left: 150px;
+  background-color: purple;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -746,19 +759,6 @@ details > p {
 @keyframes colorChange {
   from {background: pink;}
   to {background: black;}
-}
-
-.ball3 { 
-  height: 30px;
-  width: 30px;
-  left: 150px;
-  background-color: purple;
-  position: absolute;
-  border-radius: 50%;
-  animation-name: ball3;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
 }
 
 .ball4 {
