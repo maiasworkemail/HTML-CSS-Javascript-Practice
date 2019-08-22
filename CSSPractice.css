@@ -208,6 +208,19 @@ h1 {
   animation-timing-function: ease-in-out;
 }
 
+.ball6 {
+  height: 30px;
+  width: 30px;
+  left: 330px;
+  background-color: purple;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: ball6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.25, .25, .75, .75);
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -785,19 +798,6 @@ details > p {
 @keyframes colorChange {
   from {background: pink;}
   to {background: black;}
-}
-
-.ball6 {
-  height: 30px;
-  width: 30px;
-  left: 330px;
-  background-color: purple;
-  position: absolute;
-  border-radius: 50%;
-  animation-name: ball6;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(.25, .25, .75, .75);
 }
 
 @keyframes ball1 {
