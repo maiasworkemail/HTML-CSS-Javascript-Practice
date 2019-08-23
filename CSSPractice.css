@@ -800,18 +800,6 @@ details > p {
   to {background: black;}
 }
 
-@keyframes ball1 {
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: 300px;
-  }
-  100% {
-    top: 0px;
-  }
-}
-
 @keyframes ball2 {
   0% {
     top: 0px;
