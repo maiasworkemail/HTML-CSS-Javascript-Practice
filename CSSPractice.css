@@ -156,6 +156,18 @@ h1 {
   animation-timing-function: linear;
 }
 
+@keyframes ball1 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
 .ball2 {
   height: 30px;
   width: 30px;
