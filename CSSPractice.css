@@ -181,6 +181,18 @@ h1 {
   animation-timing-function: ease;
 }
 
+@keyframes ball2 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
 .ball3 { 
   height: 30px;
   width: 30px;
@@ -810,18 +822,6 @@ details > p {
 @keyframes colorChange {
   from {background: pink;}
   to {background: black;}
-}
-
-@keyframes ball2 {
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: 300px;
-  }
-  100% {
-    top: 0px;
-  }
 }
 
 @keyframes ball3 {
