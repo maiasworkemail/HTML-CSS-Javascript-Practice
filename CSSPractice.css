@@ -108,6 +108,11 @@ h1 {
   animation-duration: 10s;
 }
 
+h2::before {
+  content: "This is content text before the h2 header"; 
+  color: red; 
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
@@ -301,11 +306,6 @@ section::before {
 
 .firstLetterBlue::first-letter {
   color: blue;
-}
-
-h2::before {
-  content: "This is content text before the h2 header"; 
-  color: red; 
 }
 
 h3::after {
