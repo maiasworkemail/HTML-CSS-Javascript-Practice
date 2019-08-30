@@ -282,6 +282,18 @@ h1 {
   animation-timing-function: cubic-bezier(.25, .25, .75, .75);
 }
 
+@keyframes ball6 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -859,18 +871,6 @@ details > p {
 @keyframes colorChange {
   from {background: pink;}
   to {background: black;}
-}
-
-@keyframes ball6 {
-  0% {
-    top: 0px;
-  }
-  50% {
-    top: 300px;
-  }
-  100% {
-    top: 0px;
-  }
 }
 
 table, th, td {
