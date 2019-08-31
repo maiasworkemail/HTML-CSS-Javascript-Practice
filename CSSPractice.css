@@ -113,6 +113,11 @@ h2::before {
   color: red; 
 }
 
+h3::after {
+  content: "This is text placed after any h3 headers using the ::after selector."; 
+  color: blue; 
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
@@ -306,11 +311,6 @@ section::before {
 
 .firstLetterBlue::first-letter {
   color: blue;
-}
-
-h3::after {
-  content: "This is text placed after any h3 headers using the ::after selector."; 
-  color: blue; 
 }
 
 h4 {
