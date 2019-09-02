@@ -118,6 +118,10 @@ h3::after {
   color: blue; 
 }
 
+h4 {
+  text-shadow: 2px 2px 5px red;
+}
+
 .borderImage {
   border: 10px solid transparent; 
   margin: 20px;
@@ -311,10 +315,6 @@ section::before {
 
 .firstLetterBlue::first-letter {
   color: blue;
-}
-
-h4 {
-  text-shadow: 2px 2px 5px red;
 }
 
 .noWrappingClass {
