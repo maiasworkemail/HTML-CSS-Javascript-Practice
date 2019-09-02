@@ -104,6 +104,11 @@ body {
 }
 
 h1 {
+  color: pink;
+  transition: font-size;
+  transition-duration: 5s;
+  transition-timing-function: linear; 
+  transition-delay: 1s;
   animation-name: colorChange; 
   animation-duration: 10s;
 }
@@ -553,14 +558,6 @@ nav + header {
 .htmlImg {
   width: 100px;
   height: 100px; 
-}
-
-h1 {
-  color: pink;
-  transition: font-size;
-  transition-duration: 5s;
-  transition-timing-function: linear; 
-  transition-delay: 1s;
 }
 
 h1:hover {
