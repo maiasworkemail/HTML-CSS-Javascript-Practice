@@ -111,6 +111,9 @@ h1 {
   transition-delay: 1s;
   animation-name: colorChange; 
   animation-duration: 10s;
+  font-family: 'Unlock', monospace, serif;
+  width: 40vw;
+  margin: -15px;
 }
 
 h2::before {
@@ -895,12 +898,6 @@ table, th, td {
 
 p {
   font-size: 25px;
-}
-
-h1 {
-  font-family: 'Unlock', monospace, serif;
-  width: 40vw;
-  margin: -15px;
 }
 
 nav {
