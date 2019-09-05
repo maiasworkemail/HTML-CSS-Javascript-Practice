@@ -116,6 +116,10 @@ h1 {
   margin: -15px;
 }
 
+h1:hover {
+  font-size: 20px; 
+}
+
 h2::before {
   content: "This is content text before the h2 header"; 
   color: red; 
@@ -561,10 +565,6 @@ nav + header {
 .htmlImg {
   width: 100px;
   height: 100px; 
-}
-
-h1:hover {
-  font-size: 20px; 
 }
 
 .homeButton:hover {
