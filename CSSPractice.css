@@ -320,6 +320,15 @@ h4 {
   }
 }
 
+.grid-container {
+  background-color: darkgray;
+  height: 200px;
+  width: 200px; 
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: repeat(3, 50px);
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -573,15 +582,6 @@ nav + header {
 
 .homeButton:active {
   background-color: black;
-}
-
-.grid-container {
-  background-color: darkgray;
-  height: 200px;
-  width: 200px; 
-  display: grid;
-  grid-template-columns: repeat(3, 50px);
-  grid-template-rows: repeat(3, 50px);
 }
 
 .grid-container2-auto-fill {
