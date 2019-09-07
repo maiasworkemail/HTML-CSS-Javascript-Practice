@@ -329,6 +329,13 @@ h4 {
   grid-template-rows: repeat(3, 50px);
 }
 
+.grid-item1 {
+  background-color: pink;
+  height: 40px;
+  width: 40px; 
+  margin:5px; 
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -624,13 +631,6 @@ details > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-item1 {
-  background-color: pink;
-  height: 40px;
-  width: 40px; 
-  margin:5px; 
 }
 
 .grid-item2 {
