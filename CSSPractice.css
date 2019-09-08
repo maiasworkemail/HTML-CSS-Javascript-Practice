@@ -336,6 +336,12 @@ h4 {
   margin:5px; 
 }
 
+.grid-item1-justify-self {
+  background-color: pink;
+  margin:5px;
+  justify-self: start;
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -670,12 +676,6 @@ details > p {
   background-color: greenyellow;
   margin: 5px;
   grid-area: foot;
-}
-
-.grid-item1-justify-self {
-  background-color: pink;
-  margin:5px;
-  justify-self: start;
 }
 
 .grid-item2-justify-self {
