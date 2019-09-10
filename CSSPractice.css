@@ -342,6 +342,12 @@ h4 {
   justify-self: start;
 }
 
+.grid-item1-align-self {
+  background-color: pink;
+  margin: 5px;
+  align-self: start ;
+}
+
 section::before {
   counter-increment: sectionVariable; 
   content: "Section " counter(sectionVariable) ": ";
@@ -688,12 +694,6 @@ details > p {
   background-color: greenyellow;
   margin: 5px;
   justify-self: end;
-}
-
-.grid-item1-align-self {
-  background-color: pink;
-  margin: 5px;
-  align-self: start ;
 }
 
 .grid-item2-align-self {
