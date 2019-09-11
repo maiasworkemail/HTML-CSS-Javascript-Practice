@@ -343,6 +343,13 @@ h4 {
   margin: 5px;  
 }
 
+.grid-item3 {
+  background-color: greenyellow;
+  height: 40px;
+  width: 40px;  
+  margin: 5px;
+}
+
 .grid-item1-justify-self {
   background-color: pink;
   margin:5px;
@@ -650,13 +657,6 @@ details > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-item3 {
-  background-color: greenyellow;
-  height: 40px;
-  width: 40px;  
-  margin: 5px;
 }
 
 .grid-item4 {
