@@ -372,6 +372,13 @@ h4 {
     "foot foot foot";   
 }
 
+.grid-item4 {
+  background-color: orange;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
 .grid-item1-justify-self {
   background-color: pink;
   margin:5px;
@@ -657,13 +664,6 @@ details > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-item4 {
-  background-color: orange;
-  height: 40px;
-  width: 40px;
-  margin: 5px;
 }
 
 .grid-area-item1 {
