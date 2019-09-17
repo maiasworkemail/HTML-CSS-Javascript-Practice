@@ -350,6 +350,13 @@ h4 {
   margin: 5px;
 }
 
+.grid-item4 {
+  background-color: orange;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
 .grid-container2-auto-fill {
   background-color: darkgray;
   height: 200px;
@@ -370,13 +377,6 @@ h4 {
     "head head head"
     "middleArea middleArea ."
     "foot foot foot";   
-}
-
-.grid-item4 {
-  background-color: orange;
-  height: 40px;
-  width: 40px;
-  margin: 5px;
 }
 
 .grid-container4-justify-self {
