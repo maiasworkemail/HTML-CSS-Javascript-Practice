@@ -379,6 +379,12 @@ h4 {
     "foot foot foot";   
 }
 
+.grid-area-item1 {
+  background-color: pink;
+  margin:5px;
+  grid-area: head;
+}
+
 .grid-container4-justify-self {
   background-color: darkgray;
   height: 200px;
@@ -664,12 +670,6 @@ details > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-area-item1 {
-  background-color: pink;
-  margin:5px;
-  grid-area: head;
 }
 
 .grid-area-item2 {
