@@ -385,6 +385,12 @@ h4 {
   grid-area: head;
 }
 
+.grid-area-item2 {
+  background-color: skyblue;
+  margin: 5px; 
+  grid-area: middleArea; 
+}
+
 .grid-container4-justify-self {
   background-color: darkgray;
   height: 200px;
@@ -670,12 +676,6 @@ details > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-area-item2 {
-  background-color: skyblue;
-  margin: 5px; 
-  grid-area: middleArea; 
 }
 
 .grid-area-item3 {
