@@ -410,6 +410,12 @@ h4 {
   justify-self: start;
 }
 
+.grid-item2-justify-self {
+  background-color: skyblue;
+  margin: 5px; 
+  justify-self: center; 
+}
+
 .grid-item1-align-self {
   background-color: pink;
   margin: 5px;
@@ -682,12 +688,6 @@ details > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-item2-justify-self {
-  background-color: skyblue;
-  margin: 5px; 
-  justify-self: center; 
 }
 
 .grid-item3-justify-self {
