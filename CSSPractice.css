@@ -391,6 +391,12 @@ h4 {
   grid-area: middleArea; 
 }
 
+.grid-area-item3 {
+  background-color: greenyellow;
+  margin: 5px;
+  grid-area: foot;
+}
+
 .grid-container4-justify-self {
   background-color: darkgray;
   height: 200px;
@@ -676,12 +682,6 @@ details > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-area-item3 {
-  background-color: greenyellow;
-  margin: 5px;
-  grid-area: foot;
 }
 
 .grid-item2-justify-self {
