@@ -416,6 +416,12 @@ h4 {
   justify-self: center; 
 }
 
+.grid-item3-justify-self {
+  background-color: greenyellow;
+  margin: 5px;
+  justify-self: end;
+}
+
 .grid-item1-align-self {
   background-color: pink;
   margin: 5px;
@@ -688,12 +694,6 @@ details > p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-item3-justify-self {
-  background-color: greenyellow;
-  margin: 5px;
-  justify-self: end;
 }
 
 .grid-item2-align-self {
